@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Disclaimer — GameAPKDownloads.pk",
-  description: "Disclaimer for GameAPKDownloads.pk — important information about the nature of our content.",
+  description: "Important: earning apps involve real money and financial risk. Read our disclaimer before downloading any APK from GameAPKDownloads.pk.",
   alternates: { canonical: "https://gameapkdownloads.pk/disclaimer" },
 };
 

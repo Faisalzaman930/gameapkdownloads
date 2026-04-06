@@ -8,11 +8,11 @@ const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
 export const metadata: Metadata = {
   metadataBase: new URL("https://gameapkdownloads.pk"),
   title: {
-    default: "GameAPKDownloads.pk — Latest Game APKs & Earning Apps Pakistan 2026",
+    default: "Game APK Downloads Pakistan 2026 — Free & Verified",
     template: "%s | GameAPKDownloads.pk",
   },
   description:
-    "Download the latest game APKs and real money earning apps in Pakistan 2026. Fast downloads, honest reviews, and instant EasyPaisa & JazzCash withdrawal guides.",
+    "Download 30+ real money earning apps in Pakistan. Free APKs, verified payouts, EasyPaisa & JazzCash guides. Updated daily.",
   keywords: [
     "game apk download pakistan",
     "earning app pakistan",

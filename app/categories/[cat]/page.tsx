@@ -24,8 +24,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const cat_info = categoryMap[cat];
   if (!cat_info) return {};
   return {
-    title: `${cat_info.label} APK Downloads Pakistan 2026`,
-    description: `Browse and download the best ${cat_info.label.toLowerCase()} earning apps in Pakistan 2026. Real money, EasyPaisa & JazzCash withdrawals.`,
+    title: `Best ${cat_info.label} APK Downloads Pakistan — Free 2026`,
+    description: `Download the top ${cat_info.label.toLowerCase()} earning apps in Pakistan — free APKs, verified payouts, EasyPaisa & JazzCash. Get your welcome bonus now.`,
     alternates: { canonical: `https://gameapkdownloads.pk/categories/${cat}` },
   };
 }

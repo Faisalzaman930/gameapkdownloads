@@ -3,9 +3,9 @@ import Link from "next/link";
 import { games } from "@/lib/games";
 
 export const metadata: Metadata = {
-  title: "Latest Game APK Downloads Pakistan 2026 — All Games",
+  title: "All Earning Game APKs Pakistan — Free Download 2026",
   description:
-    "Full list of real money earning game APKs available in Pakistan 2026. Filter by category, sort by rating. Instant EasyPaisa & JazzCash withdrawal supported.",
+    "30+ earning app APKs for Pakistan. All free, verified safe. Casino, slots, sports & more. EasyPaisa & JazzCash payouts. Download your app now.",
   alternates: { canonical: "https://gameapkdownloads.pk/games" },
 };
 

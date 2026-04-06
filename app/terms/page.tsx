@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Terms & Conditions — GameAPKDownloads.pk",
-  description: "Terms and Conditions for using GameAPKDownloads.pk.",
+  description: "Terms and conditions for using GameAPKDownloads.pk. Covers APK downloads, earning app reviews, and your responsibilities as a visitor.",
   alternates: { canonical: "https://gameapkdownloads.pk/terms" },
 };
 

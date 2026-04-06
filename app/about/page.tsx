@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About Us — GameAPKDownloads.pk | Pakistan's Trusted APK Review Team",
-  description: "Meet the GameAPKDownloads.pk editorial team — experienced APK reviewers and earning app specialists who personally test every app before publishing a review.",
+  title: "About Us — Pakistan's Most Trusted APK Review Team",
+  description: "Real people, real withdrawals. Meet the team behind GameAPKDownloads.pk — we test every earning app ourselves before publishing. No paid reviews, ever.",
   alternates: { canonical: "https://gameapkdownloads.pk/about" },
 };
 

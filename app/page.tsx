@@ -3,14 +3,14 @@ import Link from "next/link";
 import { getLatestGames } from "@/lib/games";
 
 export const metadata: Metadata = {
-  title: "GameAPKDownloads.pk — Latest Game APKs & Earning Apps Pakistan 2026",
+  title: "Game APK Downloads Pakistan — Real Money Earning Apps 2026",
   description:
-    "Download the top 10 latest game APKs in Pakistan 2026. Real cash earning apps with EasyPaisa & JazzCash withdrawal. Honest reviews, fast downloads.",
+    "Download free earning app APKs in Pakistan. Verified safe, instant EasyPaisa & JazzCash payouts. Get your welcome bonus today — updated daily.",
   alternates: { canonical: "https://gameapkdownloads.pk" },
   openGraph: {
-    title: "GameAPKDownloads.pk — Latest Earning Game APKs Pakistan 2026",
+    title: "Game APK Downloads Pakistan — Real Money Earning Apps 2026",
     description:
-      "Pakistan's #1 source for game APK downloads. Top 10 real money earning apps reviewed and updated daily.",
+      "Download free earning app APKs in Pakistan. Verified safe, instant EasyPaisa & JazzCash payouts. Get your welcome bonus today.",
     url: "https://gameapkdownloads.pk",
     type: "website",
   },

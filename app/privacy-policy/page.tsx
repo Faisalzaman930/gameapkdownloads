@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Privacy Policy — GameAPKDownloads.pk",
-  description: "Privacy Policy for GameAPKDownloads.pk — how we collect, use, and protect your data.",
+  description: "How GameAPKDownloads.pk collects, uses, and protects your data. We never sell your information. Read our full privacy commitment.",
   alternates: { canonical: "https://gameapkdownloads.pk/privacy-policy" },
 };
 
