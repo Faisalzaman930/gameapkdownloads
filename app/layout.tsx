@@ -28,6 +28,7 @@ export const metadata: Metadata = {
   twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true },
   alternates: { canonical: "https://gameapkdownloads.pk" },
+  verification: { google: "0PRzBNFdTiGRyxpj_NlvO_a3YFCBpBdAMX4jorxLBV0" },
   icons: {
     icon: [
       { url: "/favicon.svg", type: "image/svg+xml" },
