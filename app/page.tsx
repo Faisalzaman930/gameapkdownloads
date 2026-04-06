@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { getLatestGames } from "@/lib/games";
 
@@ -174,8 +175,12 @@ export default function HomePage() {
               <div className="p-4 flex gap-3 items-start">
                 {/* Icon */}
                 <div className="relative flex-shrink-0">
-                  <div className="w-14 h-14 bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl flex items-center justify-center text-3xl border border-gray-700 group-hover:border-emerald-500/40 transition-colors">
-                    {game.emoji}
+                  <div className="w-14 h-14 bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl overflow-hidden border border-gray-700 group-hover:border-emerald-500/40 transition-colors flex items-center justify-center">
+                    {game.image ? (
+                      <Image src={game.image} alt={game.name} width={56} height={56} className="w-full h-full object-cover" unoptimized />
+                    ) : (
+                      <span className="text-3xl">{game.emoji}</span>
+                    )}
                   </div>
                   {i < 3 && (
                     <span className="absolute -top-1.5 -right-1.5 bg-red-500 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full leading-none">

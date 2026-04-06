@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { games } from "@/lib/games";
 
@@ -36,7 +37,13 @@ export default function GamesPage() {
             className="group bg-gray-900 border border-gray-800 hover:border-emerald-500/60 rounded-2xl p-5 transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-emerald-500/5"
           >
             <div className="flex items-start gap-3 mb-3">
-              <span className="text-3xl">{game.emoji}</span>
+              <div className="w-12 h-12 rounded-xl overflow-hidden border border-gray-700 flex-shrink-0 flex items-center justify-center bg-gray-800">
+                {game.image ? (
+                  <Image src={game.image} alt={game.name} width={48} height={48} className="w-full h-full object-cover" unoptimized />
+                ) : (
+                  <span className="text-2xl">{game.emoji}</span>
+                )}
+              </div>
               <div>
                 <h2 className="font-bold text-white group-hover:text-emerald-400 transition-colors">
                   {game.name}

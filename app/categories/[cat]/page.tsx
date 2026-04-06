@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { games } from "@/lib/games";
 
@@ -76,8 +77,12 @@ export default async function CategoryPage({ params }: Props) {
               className="group bg-gray-900 border border-gray-800 hover:border-emerald-500/50 rounded-2xl overflow-hidden transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-emerald-500/5">
               <div className="h-0.5 bg-gradient-to-r from-emerald-600 via-teal-500 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
               <div className="p-4 flex gap-3 items-start">
-                <div className="w-14 h-14 bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl flex items-center justify-center text-3xl border border-gray-700 flex-shrink-0">
-                  {game.emoji}
+                <div className="w-14 h-14 bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl overflow-hidden border border-gray-700 flex-shrink-0 flex items-center justify-center">
+                  {game.image ? (
+                    <Image src={game.image} alt={game.name} width={56} height={56} className="w-full h-full object-cover" unoptimized />
+                  ) : (
+                    <span className="text-3xl">{game.emoji}</span>
+                  )}
                 </div>
                 <div className="flex-1 min-w-0">
                   <h2 className="font-bold text-white text-sm group-hover:text-emerald-400 transition-colors">{game.name}</h2>
