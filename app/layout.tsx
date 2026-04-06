@@ -42,12 +42,25 @@ const navLinks = [
   { href: "/categories/casino", label: "Casino" },
   { href: "/categories/slots", label: "Slots" },
   { href: "/categories/sports", label: "Sports" },
+  { href: "/about", label: "About" },
 ];
+
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "GameAPKDownloads.pk",
+  url: "https://gameapkdownloads.pk",
+  logo: "https://gameapkdownloads.pk/favicon.svg",
+  description: "Pakistan's most trusted source for game APK downloads, earning app reviews, and withdrawal guides.",
+  contactPoint: { "@type": "ContactPoint", email: "contact@gameapkdownloads.pk", contactType: "customer support" },
+  sameAs: ["https://github.com/Faisalzaman930/gameapkdownloads"],
+};
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={geist.variable}>
       <body className="min-h-screen flex flex-col bg-gray-950 text-gray-100 font-sans">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
         {/* NAV */}
         <header className="sticky top-0 z-50 bg-gray-950/95 backdrop-blur border-b border-gray-800">
           <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-14">

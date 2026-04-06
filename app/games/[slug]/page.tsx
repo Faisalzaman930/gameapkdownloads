@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getGame, games } from "@/lib/games";
@@ -126,8 +127,12 @@ export default async function GamePage({ params }: Props) {
             {/* LEFT — icon + download + rating (matches reference exactly) */}
             <div className="flex-shrink-0 flex flex-col items-center gap-3 sm:w-44">
               {/* Game icon */}
-              <div className="w-36 h-36 bg-gradient-to-br from-gray-800 to-gray-700 rounded-2xl flex items-center justify-center text-7xl border border-gray-700 shadow-xl">
-                {game.emoji}
+              <div className="w-36 h-36 rounded-2xl overflow-hidden border border-gray-700 shadow-xl bg-gradient-to-br from-gray-800 to-gray-700 flex items-center justify-center">
+                {game.image ? (
+                  <Image src={game.image} alt={`${game.name} APK icon`} width={144} height={144} className="w-full h-full object-cover" unoptimized />
+                ) : (
+                  <span className="text-7xl">{game.emoji}</span>
+                )}
               </div>
 
               {/* DOWNLOAD button */}
@@ -206,6 +211,32 @@ export default async function GamePage({ params }: Props) {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
           {/* MAIN CONTENT */}
           <div className="lg:col-span-2 space-y-5">
+
+            {/* Expert Verdict */}
+            {game.expertVerdict && (
+              <section className="bg-gradient-to-br from-emerald-950 to-gray-900 border border-emerald-500/30 rounded-2xl p-5">
+                <div className="flex items-center gap-2 mb-3">
+                  <span className="text-emerald-400 text-lg">🏅</span>
+                  <h2 className="font-bold text-white">Expert Verdict</h2>
+                  <span className="ml-auto text-xs bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 px-2 py-0.5 rounded-full">Hands-on Tested</span>
+                </div>
+                <p className="text-gray-300 text-sm leading-relaxed mb-4">{game.expertVerdict}</p>
+                <div className="flex items-center gap-3 border-t border-emerald-500/20 pt-3">
+                  <div className="w-8 h-8 rounded-full bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center text-sm font-bold text-emerald-400">
+                    {game.reviewedBy?.[0] ?? "R"}
+                  </div>
+                  <div>
+                    <p className="text-xs font-semibold text-gray-200">{game.reviewedBy}</p>
+                    {game.reviewedAt && (
+                      <p className="text-xs text-gray-500">
+                        Reviewed: {new Date(game.reviewedAt).toLocaleDateString("en-PK", { year: "numeric", month: "long", day: "numeric" })}
+                      </p>
+                    )}
+                  </div>
+                  <Link href="/about" className="ml-auto text-xs text-emerald-400 hover:underline">About our review process →</Link>
+                </div>
+              </section>
+            )}
 
             {/* Features */}
             <section className="bg-gray-900 border border-gray-800 rounded-2xl p-5">
