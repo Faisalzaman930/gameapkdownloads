@@ -212,6 +212,22 @@ export default async function GamePage({ params }: Props) {
           {/* MAIN CONTENT */}
           <div className="lg:col-span-2 space-y-5">
 
+            {/* Screenshots */}
+            {game.screenshots && game.screenshots.length > 0 && (
+              <section className="bg-gray-900 border border-gray-800 rounded-2xl p-5">
+                <h2 className="font-bold text-white mb-4 flex items-center gap-2">
+                  <span className="text-emerald-400">📸</span> {game.name} — Screenshots
+                </h2>
+                <div className={`grid gap-3 ${game.screenshots.length === 1 ? "grid-cols-1 max-w-xs" : game.screenshots.length === 2 ? "grid-cols-2" : "grid-cols-2 sm:grid-cols-3"}`}>
+                  {game.screenshots.map((src, i) => (
+                    <div key={i} className="rounded-xl overflow-hidden border border-gray-700 bg-gray-800">
+                      <Image src={src} alt={`${game.name} screenshot ${i + 1}`} width={400} height={700} className="w-full h-auto object-contain" unoptimized />
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
             {/* Expert Verdict */}
             {game.expertVerdict && (
               <section className="bg-gradient-to-br from-emerald-950 to-gray-900 border border-emerald-500/30 rounded-2xl p-5">
@@ -273,16 +289,33 @@ export default async function GamePage({ params }: Props) {
               </div>
             </section>
 
+            {/* Tips & Strategies */}
+            {game.tips && game.tips.length > 0 && (
+              <section className="bg-gray-900 border border-gray-800 rounded-2xl p-5">
+                <h2 className="font-bold text-white mb-4 flex items-center gap-2">
+                  <span className="text-emerald-400">💡</span> Tips &amp; Strategies to Win on {game.name}
+                </h2>
+                <ol className="space-y-3">
+                  {game.tips.map((tip, i) => (
+                    <li key={i} className="flex items-start gap-3 text-sm text-gray-300">
+                      <span className="flex-shrink-0 w-6 h-6 rounded-full bg-emerald-500/20 border border-emerald-500/30 text-emerald-400 text-xs font-bold flex items-center justify-center mt-0.5">{i + 1}</span>
+                      <span className="leading-relaxed">{tip}</span>
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            )}
+
             {/* Pros & Cons */}
             <section className="bg-gray-900 border border-gray-800 rounded-2xl p-5">
               <h2 className="font-bold text-white mb-4 flex items-center gap-2">
-                <span className="text-emerald-400">⚖️</span> Pros &amp; Cons
+                <span className="text-emerald-400">⚖️</span> Pros &amp; Cons of {game.name}
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div className="bg-emerald-500/5 border border-emerald-500/20 rounded-xl p-3">
                   <p className="text-emerald-400 font-semibold text-xs mb-2 uppercase tracking-wide">✅ Pros</p>
                   <ul className="space-y-1.5">
-                    {game.features.slice(0, 4).map((f) => (
+                    {(game.pros ?? game.features.slice(0, 4)).map((f) => (
                       <li key={f} className="text-xs text-gray-300 flex gap-2 items-start">
                         <span className="text-emerald-400 flex-shrink-0">+</span>{f}
                       </li>
@@ -292,12 +325,33 @@ export default async function GamePage({ params }: Props) {
                 <div className="bg-red-500/5 border border-red-500/20 rounded-xl p-3">
                   <p className="text-red-400 font-semibold text-xs mb-2 uppercase tracking-wide">❌ Cons</p>
                   <ul className="space-y-1.5 text-xs text-gray-400">
-                    <li className="flex gap-2"><span className="text-red-400 flex-shrink-0">−</span>Android only (no iOS)</li>
-                    <li className="flex gap-2"><span className="text-red-400 flex-shrink-0">−</span>Requires internet connection</li>
-                    <li className="flex gap-2"><span className="text-red-400 flex-shrink-0">−</span>Earnings vary by skill &amp; time</li>
-                    <li className="flex gap-2"><span className="text-red-400 flex-shrink-0">−</span>Not on Google Play Store</li>
+                    {(game.cons ?? ["Android only (no iOS)", "Requires internet connection", "Earnings vary by skill & time", "Not on Google Play Store"]).map((c) => (
+                      <li key={c} className="flex gap-2"><span className="text-red-400 flex-shrink-0">−</span>{c}</li>
+                    ))}
                   </ul>
                 </div>
+              </div>
+            </section>
+
+            {/* System Requirements */}
+            <section className="bg-gray-900 border border-gray-800 rounded-2xl p-5">
+              <h2 className="font-bold text-white mb-4 flex items-center gap-2">
+                <span className="text-emerald-400">📱</span> System Requirements for {game.name}
+              </h2>
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                {[
+                  { label: "OS", value: "Android 5.0+" },
+                  { label: "RAM", value: "2 GB minimum" },
+                  { label: "Storage", value: game.size },
+                  { label: "Internet", value: "WiFi / 4G required" },
+                  { label: "Processor", value: "Quad-core 1.4GHz+" },
+                  { label: "iOS Support", value: "Not available" },
+                ].map((r) => (
+                  <div key={r.label} className="bg-gray-800/60 rounded-xl px-3 py-2.5">
+                    <p className="text-xs text-gray-500 mb-0.5">{r.label}</p>
+                    <p className="text-sm font-semibold text-gray-200">{r.value}</p>
+                  </div>
+                ))}
               </div>
             </section>
 
@@ -391,8 +445,12 @@ export default async function GamePage({ params }: Props) {
                 {relatedGames.map((rg) => (
                   <Link key={rg.slug} href={`/games/${rg.slug}`}
                     className="flex items-center gap-3 group hover:bg-gray-800 rounded-xl p-2 -mx-2 transition-colors">
-                    <div className="w-10 h-10 bg-gray-800 rounded-xl flex items-center justify-center text-xl flex-shrink-0 group-hover:bg-gray-700">
-                      {rg.emoji}
+                    <div className="w-10 h-10 bg-gray-800 rounded-xl overflow-hidden flex-shrink-0 group-hover:bg-gray-700 flex items-center justify-center">
+                      {rg.image ? (
+                        <Image src={rg.image} alt={rg.name} width={40} height={40} className="w-full h-full object-cover" unoptimized />
+                      ) : (
+                        <span className="text-xl">{rg.emoji}</span>
+                      )}
                     </div>
                     <div className="flex-1 min-w-0">
                       <p className="text-sm font-semibold text-gray-200 group-hover:text-emerald-400 transition-colors truncate">{rg.name}</p>
