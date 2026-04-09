@@ -11,7 +11,7 @@ export default function Terms() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <nav className="text-xs text-gray-500 mb-6 flex items-center gap-2">
-        <Link href="/" className="hover:text-emerald-400">Home</Link>
+        <Link href="/" className="hover:text-violet-400">Home</Link>
         <span>›</span>
         <span className="text-gray-300">Terms & Conditions</span>
       </nav>

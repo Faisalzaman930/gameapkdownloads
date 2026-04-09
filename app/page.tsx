@@ -86,14 +86,14 @@ export default function HomePage() {
           }}
         />
         <div className="relative max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
-          <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs font-semibold px-3 py-1 rounded-full mb-6">
-            <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse" />
+          <div className="inline-flex items-center gap-2 bg-violet-500/10 border border-violet-500/30 text-violet-400 text-xs font-semibold px-3 py-1 rounded-full mb-6">
+            <span className="w-1.5 h-1.5 bg-violet-400 rounded-full animate-pulse" />
             Updated Daily — Latest Games April 2026
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight">
             Pakistan&apos;s #1 Source for
             <br />
-            <span className="text-emerald-400">Game APK Downloads</span>
+            <span className="text-violet-400">Game APK Downloads</span>
           </h1>
           <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-8">
             Download the latest real money earning apps in Pakistan. Honest reviews, verified
@@ -102,13 +102,13 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/games"
-              className="bg-emerald-500 hover:bg-emerald-400 text-gray-950 font-bold px-8 py-3.5 rounded-full text-base transition-all hover:scale-105 shadow-lg shadow-emerald-500/25"
+              className="bg-orange-500 hover:bg-orange-400 text-white font-bold px-8 py-3.5 rounded-full text-base transition-all hover:scale-105 shadow-lg shadow-violet-500/25"
             >
               Browse All Games →
             </Link>
             <Link
               href="#latest"
-              className="border border-gray-700 hover:border-emerald-500 text-gray-300 hover:text-emerald-400 font-semibold px-8 py-3.5 rounded-full text-base transition-all"
+              className="border border-gray-700 hover:border-violet-500 text-gray-300 hover:text-violet-400 font-semibold px-8 py-3.5 rounded-full text-base transition-all"
             >
               Top 10 Latest ↓
             </Link>
@@ -118,7 +118,7 @@ export default function HomePage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-14 max-w-3xl mx-auto">
             {stats.map((s) => (
               <div key={s.label} className="bg-gray-900/60 border border-gray-800 rounded-xl p-4">
-                <p className="text-2xl font-extrabold text-emerald-400">{s.value}</p>
+                <p className="text-2xl font-extrabold text-violet-400">{s.value}</p>
                 <p className="text-xs text-gray-500 mt-0.5">{s.label}</p>
               </div>
             ))}
@@ -134,10 +134,10 @@ export default function HomePage() {
             <Link
               key={c.href}
               href={c.href}
-              className="flex flex-col items-center gap-2 bg-gray-900 hover:bg-gray-800 border border-gray-800 hover:border-emerald-500/50 rounded-xl p-4 transition-all group"
+              className="flex flex-col items-center gap-2 bg-gray-900 hover:bg-gray-800 border border-gray-800 hover:border-violet-500/50 rounded-xl p-4 transition-all group"
             >
               <span className="text-3xl">{c.icon}</span>
-              <span className="text-sm font-semibold text-gray-200 group-hover:text-emerald-400 text-center leading-tight">
+              <span className="text-sm font-semibold text-gray-200 group-hover:text-violet-400 text-center leading-tight">
                 {c.label}
               </span>
               <span className="text-xs text-gray-600">{c.count} games</span>
@@ -157,7 +157,7 @@ export default function HomePage() {
               Sorted by most recently updated. All APKs verified and safe.
             </p>
           </div>
-          <Link href="/games" className="text-emerald-400 text-sm hover:underline hidden sm:block">
+          <Link href="/games" className="text-violet-400 text-sm hover:underline hidden sm:block">
             View all →
           </Link>
         </div>
@@ -167,17 +167,17 @@ export default function HomePage() {
             <Link
               key={game.slug}
               href={`/games/${game.slug}`}
-              className="group bg-gray-900 border border-gray-800 hover:border-emerald-500/50 rounded-2xl overflow-hidden transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-emerald-500/5"
+              className="group bg-gray-900 border border-gray-800 hover:border-violet-500/50 rounded-2xl overflow-hidden transition-all hover:-translate-y-0.5 hover:shadow-xl hover:shadow-violet-500/5"
             >
               {/* Card top accent */}
-              <div className="h-0.5 bg-gradient-to-r from-emerald-600 via-teal-500 to-emerald-600 opacity-0 group-hover:opacity-100 transition-opacity" />
+              <div className="h-0.5 bg-gradient-to-r from-violet-600 via-violet-500 to-violet-600 opacity-0 group-hover:opacity-100 transition-opacity" />
 
               <div className="p-4 flex gap-3 items-start">
                 {/* Icon */}
                 <div className="relative flex-shrink-0">
-                  <div className="w-14 h-14 bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl overflow-hidden border border-gray-700 group-hover:border-emerald-500/40 transition-colors flex items-center justify-center">
+                  <div className="w-14 h-14 bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl overflow-hidden border border-gray-700 group-hover:border-violet-500/40 transition-colors flex items-center justify-center">
                     {game.image ? (
-                      <Image src={game.image} alt={game.name} width={56} height={56} className="w-full h-full object-cover" unoptimized />
+                      <Image src={game.image} alt={`${game.name} APK download — earning app Pakistan`} width={56} height={56} className="w-full h-full object-cover" unoptimized />
                     ) : (
                       <span className="text-3xl">{game.emoji}</span>
                     )}
@@ -192,7 +192,7 @@ export default function HomePage() {
                 {/* Info */}
                 <div className="flex-1 min-w-0">
                   <div className="flex items-start justify-between gap-1 mb-0.5">
-                    <h3 className="font-bold text-white text-sm group-hover:text-emerald-400 transition-colors leading-tight">
+                    <h3 className="font-bold text-white text-sm group-hover:text-violet-400 transition-colors leading-tight">
                       {game.name}
                     </h3>
                     <span className="text-xs text-gray-600 flex-shrink-0">#{i + 1}</span>
@@ -205,14 +205,14 @@ export default function HomePage() {
                   </div>
                   <div className="flex items-center gap-1.5 flex-wrap">
                     <span className="text-[10px] bg-gray-800 text-gray-400 px-1.5 py-0.5 rounded-md">{game.size}</span>
-                    <span className="text-[10px] bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-1.5 py-0.5 rounded-md">{game.bonus}</span>
+                    <span className="text-[10px] bg-violet-500/10 text-violet-400 border border-violet-500/20 px-1.5 py-0.5 rounded-md">{game.bonus}</span>
                   </div>
                 </div>
               </div>
 
               {/* Download button at bottom */}
               <div className="px-4 pb-4">
-                <div className="flex items-center justify-between bg-emerald-500 group-hover:bg-emerald-400 rounded-xl px-4 py-2.5 transition-colors">
+                <div className="flex items-center justify-between bg-orange-500 group-hover:bg-orange-400 rounded-xl px-4 py-2.5 transition-colors">
                   <span className="text-xs font-bold text-gray-950">⬇️ Download APK</span>
                   <span className="text-xs text-gray-800 font-medium">Free</span>
                 </div>

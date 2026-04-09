@@ -46,7 +46,7 @@ export default function AboutPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
       <nav className="text-xs text-gray-500 mb-6 flex items-center gap-2">
-        <Link href="/" className="hover:text-emerald-400">Home</Link>
+        <Link href="/" className="hover:text-violet-400">Home</Link>
         <span>›</span>
         <span className="text-gray-300">About Us</span>
       </nav>
@@ -85,7 +85,7 @@ export default function AboutPage() {
             { step: "4", title: "30-Day Monitoring", desc: "We monitor each listed app for 30+ days after initial review. Payout issues, bonus changes, or security problems trigger immediate updates." },
           ].map((item) => (
             <div key={item.step} className="bg-gray-900 border border-gray-800 rounded-xl p-5 flex gap-4">
-              <div className="w-8 h-8 bg-emerald-500 text-gray-950 rounded-full flex items-center justify-center font-extrabold text-sm flex-shrink-0 mt-0.5">
+              <div className="w-8 h-8 bg-violet-500 text-gray-950 rounded-full flex items-center justify-center font-extrabold text-sm flex-shrink-0 mt-0.5">
                 {item.step}
               </div>
               <div>
@@ -103,21 +103,21 @@ export default function AboutPage() {
         <div className="space-y-5">
           {team.map((member) => (
             <div key={member.name} className="bg-gray-900 border border-gray-800 rounded-2xl p-6 flex gap-5 items-start">
-              <div className="w-16 h-16 bg-emerald-500/20 border border-emerald-500/30 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">
+              <div className="w-16 h-16 bg-violet-500/20 border border-violet-500/30 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0">
                 {member.emoji}
               </div>
               <div className="flex-1">
                 <div className="flex items-start justify-between flex-wrap gap-2 mb-1">
                   <div>
                     <h3 className="font-bold text-white text-base">{member.name}</h3>
-                    <p className="text-emerald-400 text-sm">{member.title}</p>
+                    <p className="text-violet-400 text-sm">{member.title}</p>
                   </div>
                   <span className="bg-gray-800 text-gray-400 text-xs px-2.5 py-1 rounded-full">{member.reviews} apps reviewed</span>
                 </div>
                 <p className="text-gray-400 text-sm leading-relaxed mb-3">{member.bio}</p>
                 <div className="flex flex-wrap gap-2">
                   {member.expertise.map((e) => (
-                    <span key={e} className="text-xs bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 px-2.5 py-0.5 rounded-full">{e}</span>
+                    <span key={e} className="text-xs bg-violet-500/10 border border-violet-500/20 text-violet-400 px-2.5 py-0.5 rounded-full">{e}</span>
                   ))}
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function AboutPage() {
       </section>
 
       {/* Trust signals */}
-      <section className="bg-emerald-500/5 border border-emerald-500/20 rounded-2xl p-6 text-center">
+      <section className="bg-violet-500/5 border border-violet-500/20 rounded-2xl p-6 text-center">
         <h2 className="text-lg font-bold text-white mb-4">Our Commitment to You</h2>
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm text-gray-400">
           <div><p className="text-2xl mb-2">🚫</p><p><strong className="text-gray-200">No Paid Reviews.</strong> We never accept payment to list or positively review an app.</p></div>

@@ -11,7 +11,7 @@ export default function Disclaimer() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
       <nav className="text-xs text-gray-500 mb-6 flex items-center gap-2">
-        <Link href="/" className="hover:text-emerald-400">Home</Link>
+        <Link href="/" className="hover:text-violet-400">Home</Link>
         <span>›</span>
         <span className="text-gray-300">Disclaimer</span>
       </nav>
@@ -61,7 +61,7 @@ export default function Disclaimer() {
 
         <section>
           <h2 className="text-lg font-bold text-white mb-3">Contact</h2>
-          <p>For any questions regarding this disclaimer, contact us at: <span className="text-emerald-400">contact@gameapkdownloads.pk</span></p>
+          <p>For any questions regarding this disclaimer, contact us at: <span className="text-violet-400">contact@gameapkdownloads.pk</span></p>
         </section>
       </div>
     </div>

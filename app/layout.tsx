@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import Image from "next/image";
 import Link from "next/link";
 import "./globals.css";
 
@@ -31,9 +32,13 @@ export const metadata: Metadata = {
   verification: { google: "0PRzBNFdTiGRyxpj_NlvO_a3YFCBpBdAMX4jorxLBV0" },
   icons: {
     icon: [
+      { url: "/favicon-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/favicon-512.png", sizes: "512x512", type: "image/png" },
       { url: "/favicon.svg", type: "image/svg+xml" },
     ],
-    shortcut: "/favicon.svg",
+    shortcut: "/favicon-32.png",
+    apple: "/favicon-192.png",
   },
 };
 
@@ -51,7 +56,7 @@ const orgSchema = {
   "@type": "Organization",
   name: "GameAPKDownloads.pk",
   url: "https://gameapkdownloads.pk",
-  logo: "https://gameapkdownloads.pk/favicon.svg",
+  logo: "https://gameapkdownloads.pk/favicon-512.png",
   description: "Pakistan's most trusted source for game APK downloads, earning app reviews, and withdrawal guides.",
   contactPoint: { "@type": "ContactPoint", email: "contact@gameapkdownloads.pk", contactType: "customer support" },
   sameAs: ["https://github.com/Faisalzaman930/gameapkdownloads"],
@@ -65,20 +70,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* NAV */}
         <header className="sticky top-0 z-50 bg-gray-950/95 backdrop-blur border-b border-gray-800">
           <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-14">
-            <Link href="/" className="flex items-center gap-2 font-bold text-lg text-emerald-400">
-              <span className="text-2xl">🎮</span>
+            <Link href="/" className="flex items-center gap-2 font-bold text-lg text-violet-400">
+              <Image src="/favicon-32.png" alt="GameAPKDownloads.pk logo" width={28} height={28} className="rounded-md" />
               <span>GameAPKDownloads<span className="text-gray-400">.pk</span></span>
             </Link>
             <nav className="hidden md:flex items-center gap-6 text-sm text-gray-300">
               {navLinks.map((l) => (
-                <Link key={l.href} href={l.href} className="hover:text-emerald-400 transition-colors">
+                <Link key={l.href} href={l.href} className="hover:text-violet-400 transition-colors">
                   {l.label}
                 </Link>
               ))}
             </nav>
             <Link
               href="/games"
-              className="text-xs font-semibold bg-emerald-500 hover:bg-emerald-400 text-gray-950 px-3 py-1.5 rounded-full transition-colors"
+              className="text-xs font-semibold bg-orange-500 hover:bg-orange-400 text-white px-3 py-1.5 rounded-full transition-colors"
             >
               Download Now
             </Link>
@@ -91,7 +96,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <footer className="bg-gray-900 border-t border-gray-800 mt-16">
           <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-sm text-gray-400">
             <div>
-              <p className="text-emerald-400 font-bold text-base mb-2">🎮 GameAPKDownloads.pk</p>
+              <p className="text-violet-400 font-bold text-base mb-2 flex items-center gap-2"><Image src="/favicon-32.png" alt="GameAPKDownloads.pk logo" width={20} height={20} className="rounded" /> GameAPKDownloads.pk</p>
               <p>Pakistan&apos;s most trusted source for game APK downloads, earning app reviews, and withdrawal guides — updated daily.</p>
             </div>
             <div>
@@ -99,7 +104,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <ul className="space-y-1">
                 {navLinks.map((l) => (
                   <li key={l.href}>
-                    <Link href={l.href} className="hover:text-emerald-400 transition-colors">{l.label}</Link>
+                    <Link href={l.href} className="hover:text-violet-400 transition-colors">{l.label}</Link>
                   </li>
                 ))}
               </ul>
@@ -107,9 +112,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div>
               <p className="font-semibold text-gray-200 mb-2">Legal</p>
               <ul className="space-y-1">
-                <li><Link href="/disclaimer" className="hover:text-emerald-400">Disclaimer</Link></li>
-                <li><Link href="/privacy-policy" className="hover:text-emerald-400">Privacy Policy</Link></li>
-                <li><Link href="/terms" className="hover:text-emerald-400">Terms & Conditions</Link></li>
+                <li><Link href="/disclaimer" className="hover:text-violet-400">Disclaimer</Link></li>
+                <li><Link href="/privacy-policy" className="hover:text-violet-400">Privacy Policy</Link></li>
+                <li><Link href="/terms" className="hover:text-violet-400">Terms & Conditions</Link></li>
               </ul>
               <p className="mt-4 text-xs text-gray-600">
                 This site provides information about earning apps for adults 18+. Always play responsibly.
