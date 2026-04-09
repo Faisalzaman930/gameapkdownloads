@@ -8,6 +8,7 @@ html { scroll-behavior: smooth; }
 
 /* ── Light theme: flip the gray scale so every component picks it up automatically ── */
 html.light {
+  /* Flip the gray scale */
   --color-gray-950: oklch(0.985 0.002 247.839);
   --color-gray-900: oklch(0.967 0.003 264.542);
   --color-gray-800: oklch(0.928 0.006 264.542);
@@ -19,6 +20,8 @@ html.light {
   --color-gray-200: oklch(0.279 0.041 260.031);
   --color-gray-100: oklch(0.210 0.034 264.665);
   --color-gray-50:  oklch(0.130 0.028 261.692);
+  /* text-white → dark so it's visible on light backgrounds */
+  --color-white: oklch(0.15 0.02 264);
 }
 
 ::-webkit-scrollbar { width: 6px; }
@@ -29,3 +32,11 @@ html.light {
 html.light ::-webkit-scrollbar-track { background: #f1f5f9; }
 html.light ::-webkit-scrollbar-thumb { background: #cbd5e1; }
 html.light ::-webkit-scrollbar-thumb:hover { background: #8b5cf6; }
+
+/* Restore true white text on colored (orange/violet) buttons */
+html.light .bg-orange-500,
+html.light .bg-orange-400,
+html.light .bg-violet-500,
+html.light .bg-violet-400 {
+  --color-white: oklch(1 0 0);
+}
