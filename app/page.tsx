@@ -76,7 +76,7 @@ export default function HomePage() {
       />
 
       {/* HERO */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-gray-950 via-gray-900 to-emerald-950 border-b border-gray-800">
+      <section className="relative overflow-hidden bg-gradient-to-br from-gray-950 via-gray-900 to-violet-950 border-b border-gray-800">
         <div
           className="absolute inset-0 opacity-5 pointer-events-none"
           style={{

@@ -230,7 +230,7 @@ export default async function GamePage({ params }: Props) {
 
             {/* Expert Verdict */}
             {game.expertVerdict && (
-              <section className="bg-gradient-to-br from-emerald-950 to-gray-900 border border-violet-500/30 rounded-2xl p-5">
+              <section className="bg-gradient-to-br from-violet-950 to-gray-900 border border-violet-500/30 rounded-2xl p-5">
                 <div className="flex items-center gap-2 mb-3">
                   <span className="text-violet-400 text-lg">🏅</span>
                   <h2 className="font-bold text-white">Expert Verdict</h2>
