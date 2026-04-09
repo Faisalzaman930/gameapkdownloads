@@ -66,6 +66,10 @@ const orgSchema = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={geist.variable}>
+      <head>
+        <link rel="preconnect" href="https://gameistan.com.pk" />
+        <link rel="preconnect" href="https://777gameapk.com.pk" />
+      </head>
       <body className="min-h-screen flex flex-col bg-gray-950 text-gray-100 font-sans">
         <script dangerouslySetInnerHTML={{ __html: `(function(){try{if(localStorage.getItem('theme')==='light')document.documentElement.classList.add('light')}catch(e){}})()` }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />

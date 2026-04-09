@@ -177,7 +177,7 @@ export default function HomePage() {
                 <div className="relative flex-shrink-0">
                   <div className="w-14 h-14 bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl overflow-hidden border border-gray-700 group-hover:border-violet-500/40 transition-colors flex items-center justify-center">
                     {game.image ? (
-                      <Image src={game.image} alt={`${game.name} APK download — earning app Pakistan`} width={56} height={56} className="w-full h-full object-cover" unoptimized />
+                      <Image src={game.image} alt={`${game.name} APK download — earning app Pakistan`} width={56} height={56} sizes="56px" className="w-full h-full object-cover" />
                     ) : (
                       <span className="text-3xl">{game.emoji}</span>
                     )}

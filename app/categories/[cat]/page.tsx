@@ -79,7 +79,7 @@ export default async function CategoryPage({ params }: Props) {
               <div className="p-4 flex gap-3 items-start">
                 <div className="w-14 h-14 bg-gradient-to-br from-gray-800 to-gray-700 rounded-xl overflow-hidden border border-gray-700 flex-shrink-0 flex items-center justify-center">
                   {game.image ? (
-                    <Image src={game.image} alt={`${game.name} APK download icon`} width={56} height={56} className="w-full h-full object-cover" unoptimized />
+                    <Image src={game.image} alt={`${game.name} APK download icon`} width={56} height={56} sizes="56px" className="w-full h-full object-cover" />
                   ) : (
                     <span className="text-3xl">{game.emoji}</span>
                   )}

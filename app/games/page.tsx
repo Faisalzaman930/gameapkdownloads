@@ -39,7 +39,7 @@ export default function GamesPage() {
             <div className="flex items-start gap-3 mb-3">
               <div className="w-12 h-12 rounded-xl overflow-hidden border border-gray-700 flex-shrink-0 flex items-center justify-center bg-gray-800">
                 {game.image ? (
-                  <Image src={game.image} alt={`${game.name} APK icon — download free`} width={48} height={48} className="w-full h-full object-cover" unoptimized />
+                  <Image src={game.image} alt={`${game.name} APK icon — download free`} width={48} height={48} sizes="48px" className="w-full h-full object-cover" />
                 ) : (
                   <span className="text-2xl">{game.emoji}</span>
                 )}

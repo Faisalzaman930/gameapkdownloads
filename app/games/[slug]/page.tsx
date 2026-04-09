@@ -129,7 +129,7 @@ export default async function GamePage({ params }: Props) {
               {/* Game icon */}
               <div className="w-36 h-36 rounded-2xl overflow-hidden border border-gray-700 shadow-xl bg-gradient-to-br from-gray-800 to-gray-700 flex items-center justify-center">
                 {game.image ? (
-                  <Image src={game.image} alt={`${game.name} APK icon`} width={144} height={144} className="w-full h-full object-cover" unoptimized />
+                  <Image src={game.image} alt={`${game.name} APK icon`} width={144} height={144} sizes="144px" className="w-full h-full object-cover" />
                 ) : (
                   <span className="text-7xl">{game.emoji}</span>
                 )}
@@ -221,7 +221,7 @@ export default async function GamePage({ params }: Props) {
                 <div className={`grid gap-3 ${game.screenshots.length === 1 ? "grid-cols-1 max-w-xs" : game.screenshots.length === 2 ? "grid-cols-2" : "grid-cols-2 sm:grid-cols-3"}`}>
                   {game.screenshots.map((src, i) => (
                     <div key={i} className="rounded-xl overflow-hidden border border-gray-700 bg-gray-800">
-                      <Image src={src} alt={`${game.name} screenshot ${i + 1}`} width={400} height={700} className="w-full h-auto object-contain" unoptimized />
+                      <Image src={src} alt={`${game.name} screenshot ${i + 1}`} width={400} height={700} sizes="(max-width:640px) 80vw, 400px" className="w-full h-auto object-contain" />
                     </div>
                   ))}
                 </div>
@@ -447,7 +447,7 @@ export default async function GamePage({ params }: Props) {
                     className="flex items-center gap-3 group hover:bg-gray-800 rounded-xl p-2 -mx-2 transition-colors">
                     <div className="w-10 h-10 bg-gray-800 rounded-xl overflow-hidden flex-shrink-0 group-hover:bg-gray-700 flex items-center justify-center">
                       {rg.image ? (
-                        <Image src={rg.image} alt={`${rg.name} APK — related game`} width={40} height={40} className="w-full h-full object-cover" unoptimized />
+                        <Image src={rg.image} alt={`${rg.name} APK — related game`} width={40} height={40} sizes="40px" className="w-full h-full object-cover" />
                       ) : (
                         <span className="text-xl">{rg.emoji}</span>
                       )}
