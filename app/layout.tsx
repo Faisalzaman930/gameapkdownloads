@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+import ThemeToggle from "./components/ThemeToggle";
 import "./globals.css";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
@@ -66,6 +67,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={geist.variable}>
       <body className="min-h-screen flex flex-col bg-gray-950 text-gray-100 font-sans">
+        <script dangerouslySetInnerHTML={{ __html: `(function(){try{if(localStorage.getItem('theme')==='light')document.documentElement.classList.add('light')}catch(e){}})()` }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
         {/* NAV */}
         <header className="sticky top-0 z-50 bg-gray-950/95 backdrop-blur border-b border-gray-800">
@@ -81,12 +83,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </Link>
               ))}
             </nav>
-            <Link
-              href="/games"
-              className="text-xs font-semibold bg-orange-500 hover:bg-orange-400 text-white px-3 py-1.5 rounded-full transition-colors"
-            >
-              Download Now
-            </Link>
+            <div className="flex items-center gap-2">
+              <ThemeToggle />
+              <Link
+                href="/games"
+                className="text-xs font-semibold bg-orange-500 hover:bg-orange-400 text-white px-3 py-1.5 rounded-full transition-colors"
+              >
+                Download Now
+              </Link>
+            </div>
           </div>
         </header>
 
