@@ -1572,7 +1572,7 @@ export const games: Game[] = [
   {
     slug: "pk999-pro-game",
     name: "PK999 Pro",
-    tagline: "PK999 Pro APK Download — Top Real Money Earning App Pakistan 2026",
+    tagline: "Top Real Money Earning App with VIP Pro Multiplier Pakistan 2026",
     description: "PK999 Pro is a premium earning platform designed for Pakistani players featuring high-payout slots, live card tables, and instant EasyPaisa withdrawals. The Pro edition delivers upgraded VIP rewards and a boosted Rs. 150 welcome bonus.",
     version: "v3.0.1", size: "51 MB", rating: 4.8, reviews: 1480,
     category: "Casino / Earning",
@@ -1601,7 +1601,7 @@ export const games: Game[] = [
   {
     slug: "win777-pk-game",
     name: "Win777 PK",
-    tagline: "Win777 PK APK — Triple-Seven Slots & Real Cash Earning Pakistan 2026",
+    tagline: "Triple-Seven Slots & Real Cash Earning Pakistan 2026",
     description: "Win777 PK is a lucky-777 themed slots and mini casino app built exclusively for Pakistani players. Hit triple sevens for the jackpot, earn daily bonuses, and withdraw via JazzCash in minutes.",
     version: "v1.4.0", size: "40 MB", rating: 4.6, reviews: 870,
     category: "Slots / Casino",
@@ -1629,7 +1629,7 @@ export const games: Game[] = [
   {
     slug: "gold888-game",
     name: "Gold888",
-    tagline: "Gold888 APK Download — Golden Earning Game with Instant Withdrawal Pakistan",
+    tagline: "Golden Earning Game with Instant Withdrawal Pakistan 2026",
     description: "Gold888 is a gold-themed premium earning app offering casino slots, crash games, and live fish shooting tables. Enjoy golden daily rewards and a top-tier Rs. 888 jackpot room exclusive to Pakistani players.",
     version: "v2.2.0", size: "46 MB", rating: 4.7, reviews: 1100,
     category: "Casino / Fishing",
@@ -1657,7 +1657,7 @@ export const games: Game[] = [
   {
     slug: "tiger99-game",
     name: "Tiger99",
-    tagline: "Tiger99 APK — Tiger-Themed Fishing & Slots Earning Game Pakistan 2026",
+    tagline: "Tiger-Themed Fishing & Slots Earning Game Pakistan 2026",
     description: "Tiger99 is an action-packed fishing and slots earning app featuring fierce tiger-themed tables, explosive mini games, and lightning-fast JazzCash payouts for Pakistani players.",
     version: "v1.3.2", size: "43 MB", rating: 4.5, reviews: 740,
     category: "Fishing / Slots",
@@ -1684,7 +1684,7 @@ export const games: Game[] = [
   {
     slug: "mega777-pk-game",
     name: "Mega777 PK",
-    tagline: "Mega777 PK APK Download — Mega Jackpots & Real Cash Earning App Pakistan 2026",
+    tagline: "Mega Jackpots & Real Cash Earning App Pakistan 2026",
     description: "Mega777 PK offers the largest jackpot pools among Pakistani earning apps in 2026. With progressive mega-jackpots, live casino tables, and a referral bonus of Rs. 200 per invite, it's built for big winners.",
     version: "v2.5.0", size: "55 MB", rating: 4.8, reviews: 1620,
     category: "Casino / Jackpot",
@@ -1712,7 +1712,7 @@ export const games: Game[] = [
   {
     slug: "richpk-game",
     name: "RichPK",
-    tagline: "RichPK APK Download — Get Rich with Real Money Earning Game Pakistan 2026",
+    tagline: "Get Rich with Real Money Earning Game Pakistan 2026",
     description: "RichPK is a wealth-themed earning app featuring fortune wheel spins, high-limit slots, and a rich rewards ladder that unlocks bigger and bigger cash prizes as you climb. Withdraw to EasyPaisa the same day you earn.",
     version: "v1.6.0", size: "44 MB", rating: 4.5, reviews: 680,
     category: "Casino / Earning",
@@ -1738,7 +1738,7 @@ export const games: Game[] = [
   {
     slug: "lucky365-game",
     name: "Lucky365",
-    tagline: "Lucky365 APK — 365 Days of Color Prediction & Real Earnings Pakistan 2026",
+    tagline: "365 Days of Color Prediction & Real Earnings Pakistan 2026",
     description: "Lucky365 is a color prediction earning app designed to pay you every day of the year. Fast-round color prediction, daily streak bonuses, and a unique 365-day loyalty calendar make this the most consistent earning app in Pakistan.",
     version: "v2.0.3", size: "38 MB", rating: 4.6, reviews: 920,
     category: "Color Prediction / Earning",
@@ -1766,7 +1766,7 @@ export const games: Game[] = [
   {
     slug: "dragonpk-game",
     name: "DragonPK",
-    tagline: "DragonPK APK Download — Dragon-Themed Casino & Fishing Game Pakistan 2026",
+    tagline: "Dragon-Themed Casino & Fishing Game Pakistan 2026",
     description: "DragonPK is a mythical dragon-themed earning app with fire-breathing slot reels, dragon hunting on fishing tables, and a dragon treasure jackpot. Withdraw dragon coins as real PKR to EasyPaisa and JazzCash.",
     version: "v1.5.1", size: "47 MB", rating: 4.5, reviews: 610,
     category: "Casino / Fishing",
@@ -1792,7 +1792,7 @@ export const games: Game[] = [
   {
     slug: "superwin-game",
     name: "SuperWin",
-    tagline: "SuperWin APK Download — Super Earnings & Real Money Casino Game Pakistan 2026",
+    tagline: "Super Earnings & Real Money Casino Game Pakistan 2026",
     description: "SuperWin lives up to its name — a super-charged earning app offering casino slots, live Andar Bahar, and super daily missions that pay real PKR. With a Rs. 125 welcome bonus and the industry's fastest verified withdrawals, SuperWin is built for winners.",
     version: "v2.3.0", size: "49 MB", rating: 4.7, reviews: 1050,
     category: "Casino / Card Games",
@@ -1819,7 +1819,7 @@ export const games: Game[] = [
   {
     slug: "pk5555-game",
     name: "PK5555",
-    tagline: "PK5555 APK Download — 5x Earning Multiplier Casino Game Pakistan 2026",
+    tagline: "5x Earning Multiplier Casino Game Pakistan 2026",
     description: "PK5555 is built around a unique 5x multiplier mechanic — earn 5 times your bet on special 5555 rounds. With 5 bonus modes, 5 mini games, and a Rs. 5,000 weekly jackpot, the number five has never been luckier for Pakistani players.",
     version: "v1.7.0", size: "45 MB", rating: 4.6, reviews: 790,
     category: "Casino / Multiplier",
@@ -1845,7 +1845,7 @@ export const games: Game[] = [
   {
     slug: "fastpay99-game",
     name: "FastPay99",
-    tagline: "FastPay99 APK — Pakistan's Fastest Paying Earning Game 2026",
+    tagline: "Pakistan's Fastest Paying Earning Game 2026",
     description: "FastPay99 is engineered for speed — fast game rounds, fast bonuses, and the fastest EasyPaisa payouts among all earning apps in Pakistan. Every game round lasts under 60 seconds so you can earn more in less time.",
     version: "v1.2.0", size: "36 MB", rating: 4.5, reviews: 540,
     category: "Color Prediction / Fast Games",
@@ -1871,7 +1871,7 @@ export const games: Game[] = [
   {
     slug: "earn24pk-game",
     name: "Earn24PK",
-    tagline: "Earn24PK APK Download — Earn Money 24 Hours a Day in Pakistan 2026",
+    tagline: "Earn Money 24 Hours a Day in Pakistan 2026",
     description: "Earn24PK is a round-the-clock earning platform with games, tasks, and passive income streams that pay you even while you sleep. Auto-earn mode, hourly bonuses, and live support every hour of the day make it the best 24/7 earner in Pakistan.",
     version: "v1.8.0", size: "41 MB", rating: 4.6, reviews: 830,
     category: "Earning / Passive Income",
@@ -1898,7 +1898,7 @@ export const games: Game[] = [
   {
     slug: "bet555-game",
     name: "Bet555",
-    tagline: "Bet555 APK Download — Sports Betting & Casino Earning App Pakistan 2026",
+    tagline: "Sports Betting & Casino Earning App Pakistan 2026",
     description: "Bet555 combines sports prediction with casino games for the ultimate Pakistani earning experience. Predict cricket and football match outcomes, play live casino, and withdraw winnings via EasyPaisa instantly.",
     version: "v2.1.0", size: "52 MB", rating: 4.6, reviews: 960,
     category: "Sports Betting / Casino",
@@ -1925,7 +1925,7 @@ export const games: Game[] = [
   {
     slug: "grand88-game",
     name: "Grand88",
-    tagline: "Grand88 APK Download — Grand Casino Experience with Real Money Pakistan 2026",
+    tagline: "Grand Casino Experience with Real Money Pakistan 2026",
     description: "Grand88 delivers a grand five-star casino experience on Android in Pakistan. Premium live dealer tables, high-roller slot rooms, and a grand welcome package of Rs. 175 make Grand88 the prestige choice for serious earning app players.",
     version: "v3.0.0", size: "58 MB", rating: 4.8, reviews: 1380,
     category: "Casino / Live Dealer",
@@ -1952,7 +1952,7 @@ export const games: Game[] = [
   {
     slug: "vippk-game",
     name: "VIP PK",
-    tagline: "VIP PK APK Download — Exclusive VIP Earning App for Pakistan 2026",
+    tagline: "Exclusive VIP Earning App with Personalised Bonuses Pakistan 2026",
     description: "VIP PK is an invitation-style exclusive earning app where every player is treated as VIP from day one. Personalised bonuses, VIP-only game tables, a dedicated account manager, and some of the largest withdrawal limits in Pakistan.",
     version: "v2.0.0", size: "46 MB", rating: 4.7, reviews: 1120,
     category: "Casino / VIP",
@@ -1979,7 +1979,7 @@ export const games: Game[] = [
   {
     slug: "cashpk-game",
     name: "CashPK",
-    tagline: "CashPK APK Download — Direct Cash Earning App Pakistan No Gimmicks 2026",
+    tagline: "Direct Cash Earning App No Gimmicks Pakistan 2026",
     description: "CashPK keeps it simple: play games, earn PKR, withdraw cash. No complicated levels, no confusing currencies — just direct cash earnings via EasyPaisa and JazzCash. The most straightforward earning app for Pakistani players in 2026.",
     version: "v1.4.0", size: "35 MB", rating: 4.5, reviews: 690,
     category: "Earning / Simple Games",
@@ -2006,7 +2006,7 @@ export const games: Game[] = [
   {
     slug: "pk365-game",
     name: "PK365",
-    tagline: "PK365 APK Download — Full-Year Earning Platform Cricket & Casino Pakistan 2026",
+    tagline: "Full-Year Earning Platform Cricket & Casino Pakistan 2026",
     description: "PK365 offers year-round earning opportunities with a cricket season calendar, daily casino games, and 365-day bonus structure. Never miss a match, never miss a bonus — PK365 keeps Pakistani players earning through every tournament and every day.",
     version: "v2.4.0", size: "50 MB", rating: 4.7, reviews: 1250,
     category: "Sports / Casino",
@@ -2033,7 +2033,7 @@ export const games: Game[] = [
   {
     slug: "fortune77-game",
     name: "Fortune77",
-    tagline: "Fortune77 APK Download — Fortune Slots & Lucky Earning Game Pakistan 2026",
+    tagline: "Fortune Slots & Lucky Earning Game Pakistan 2026",
     description: "Fortune77 is a fortune-telling slot machine app that uses lucky symbols and fortune cards to determine payouts. Each spin reveals a fortune card predicting your win — the mystical experience with real PKR payouts to EasyPaisa.",
     version: "v1.5.0", size: "42 MB", rating: 4.5, reviews: 720,
     category: "Slots / Lucky",
@@ -2059,7 +2059,7 @@ export const games: Game[] = [
   {
     slug: "topbet-pk-game",
     name: "TopBet PK",
-    tagline: "TopBet PK APK Download — Top-Rated Betting & Casino App Pakistan 2026",
+    tagline: "Top-Rated Betting & Casino App Pakistan 2026",
     description: "TopBet PK is consistently rated the top betting and casino earning app by Pakistani players. With the widest sports markets, deepest casino game selection, and a top-of-market Rs. 190 referral bonus, TopBet PK is where winners play.",
     version: "v3.1.0", size: "54 MB", rating: 4.8, reviews: 1730,
     category: "Betting / Casino",
@@ -2087,7 +2087,7 @@ export const games: Game[] = [
   {
     slug: "pkmaster-game",
     name: "PK Master",
-    tagline: "PK Master APK Download — Master All Games & Earn Real Money Pakistan 2026",
+    tagline: "Master All Games & Earn Real Money Pakistan 2026",
     description: "PK Master is the ultimate all-in-one mastery earning app for Pakistan. With 20+ games, a mastery progression system that rewards skill improvement, and master-tier rewards up to Rs. 25,000, PK Master is designed for players who want to be the best and earn accordingly.",
     version: "v2.8.0", size: "56 MB", rating: 4.9, reviews: 2100,
     category: "Casino / Master Gaming",
