@@ -4,7 +4,7 @@ const csp = [
   "default-src 'self'",
   "script-src 'self' 'unsafe-inline'",
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: https://gameistan.com.pk https://777gameapk.com.pk https://s3.cdnpk688.com",
+  "img-src 'self' data: https://gameistan.com.pk https://777gameapk.com.pk https://s3.cdnpk688.com https://placehold.co",
   "font-src 'self' https://fonts.gstatic.com",
   "connect-src 'self'",
   "frame-ancestors 'none'",
@@ -29,6 +29,7 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "777gameapk.com.pk" },
       { protocol: "https", hostname: "gameistan.com.pk" },
       { protocol: "https", hostname: "s3.cdnpk688.com" },
+      { protocol: "https", hostname: "placehold.co" },
     ],
   },
   experimental: {
