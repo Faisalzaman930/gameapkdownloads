@@ -69,6 +69,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="preconnect" href="https://gameistan.com.pk" />
         <link rel="preconnect" href="https://777gameapk.com.pk" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PTCHJ3DLXR" />
+        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PTCHJ3DLXR');` }} />
       </head>
       <body className="min-h-screen flex flex-col bg-gray-950 text-gray-100 font-sans">
         <script dangerouslySetInnerHTML={{ __html: `(function(){try{if(localStorage.getItem('theme')==='light')document.documentElement.classList.add('light')}catch(e){}})()` }} />
