@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 import ThemeToggle from "./components/ThemeToggle";
 import "./globals.css";
 
@@ -69,8 +70,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="preconnect" href="https://gameistan.com.pk" />
         <link rel="preconnect" href="https://777gameapk.com.pk" />
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PTCHJ3DLXR" />
-        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PTCHJ3DLXR');` }} />
       </head>
       <body className="min-h-screen flex flex-col bg-gray-950 text-gray-100 font-sans">
         <script dangerouslySetInnerHTML={{ __html: `(function(){try{if(localStorage.getItem('theme')==='light')document.documentElement.classList.add('light')}catch(e){}})()` }} />
@@ -101,6 +100,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
 
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-PTCHJ3DLXR" strategy="afterInteractive" />
+        <Script id="ga4-init" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PTCHJ3DLXR');` }} />
         <main className="flex-1">{children}</main>
 
         {/* FOOTER */}
