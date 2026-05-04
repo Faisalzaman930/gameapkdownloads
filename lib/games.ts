@@ -1891,11 +1891,9 @@ export const games: Game[] = [
       { author: "Nadia Shah", rating: 4, body: "5 mini games in one app is excellent value. Crash and fishing are my favourites.", date: "2026-04-17" },
     ],
     installs: "20K+",
-    image: "https://gameistan.com.pk/wp-content/uploads/2026/02/Gemini_Generated_Image_uhxfguuhxfguuhxf.png",
+    image: "https://images.185949949.com/wsd-images-prod/ck62pkrf1/fe_setting/web_logo/wps_logoB2_20260420165226.png",
     screenshots: [
-      "https://apkgame.com.pk/wp-content/uploads/2026/04/Win786-Game-1024x576.webp",
-      "https://apkgame.com.pk/wp-content/uploads/2026/04/Win786-Game-Download-1024x576.webp",
-      "https://gameistan.com.pk/wp-content/uploads/2026/04/Screenshot-2026-04-07-at-1.12.27-AM-604x1024.png",
+      "https://images.185949949.com/wsd-images-prod/ck62pkrf1/fe_setting/web_logo/wps_logoB2_20260420165226.png",
     ],
     tips: ["Increase bet size during the 45–55 round range when a 5555 round is statistically due", "Play all 5 mini games daily to build VIP progression faster", "Top-5 Sunday leaderboard is very competitive — play Friday–Sunday for best chance"],
     pros: ["Unique 5x multiplier rounds", "5 different games in one app", "Rs. 5,000 weekly jackpot", "Strong referral bonus Rs. 150"],
