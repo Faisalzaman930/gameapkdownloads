@@ -1891,7 +1891,7 @@ export const games: Game[] = [
       { author: "Nadia Shah", rating: 4, body: "5 mini games in one app is excellent value. Crash and fishing are my favourites.", date: "2026-04-17" },
     ],
     installs: "20K+",
-    image: "https://images.185949949.com/wsd-images-prod/ck62pkrf1/fe_setting/web_logo/wps_logoB2_20260420165226.png",
+    image: "/screenshots/pk5555-logo.png",
     screenshots: [
       "/screenshots/pk5555-screenshot-1.png",
     ],
