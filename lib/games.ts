@@ -22,6 +22,7 @@ export interface Game {
   expertVerdict?: string;
   reviewedBy?: string;
   reviewedAt?: string;
+  downloadUrl?: string;
   bonus: string;
   minWithdraw: string;
   publishedAt: string;
@@ -1900,7 +1901,7 @@ export const games: Game[] = [
     pros: ["Unique 5x multiplier rounds", "5 different games in one app", "Rs. 5,000 weekly jackpot", "Strong referral bonus Rs. 150"],
     cons: ["Android only", "5555 rounds are random", "Weekly jackpot split among top 5"],
     expertVerdict: "PK5555 is the most creative earning app mechanic we've seen in 2026. The 5555 round system creates genuine excitement — our reviewer hit one with a Rs. 300 bet and received Rs. 1,500 instantly. Five games in one app prevents boredom. JazzCash withdrawal: 4 minutes 20 seconds average. Highly innovative, highly recommended.",
-    reviewedBy: "Asad Mehmood — Casino Games Expert, GameAPKDownloads.pk", reviewedAt: "2026-04-20", bonus: "Rs. 125 Welcome Bonus", minWithdraw: "Rs. 100", publishedAt: "2026-04-14", updatedAt: "2026-04-20", emoji: "5️⃣",
+    reviewedBy: "Asad Mehmood — Casino Games Expert, GameAPKDownloads.pk", reviewedAt: "2026-04-20", downloadUrl: "http://www.5555pk2.com/?r=hwj9497", bonus: "Rs. 125 Welcome Bonus", minWithdraw: "Rs. 100", publishedAt: "2026-04-14", updatedAt: "2026-04-20", emoji: "5️⃣",
   },
   {
     slug: "fastpay99-game",
