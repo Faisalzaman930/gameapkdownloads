@@ -1893,7 +1893,7 @@ export const games: Game[] = [
     installs: "20K+",
     image: "https://images.185949949.com/wsd-images-prod/ck62pkrf1/fe_setting/web_logo/wps_logoB2_20260420165226.png",
     screenshots: [
-      "https://images.185949949.com/wsd-images-prod/ck62pkrf1/fe_setting/web_logo/wps_logoB2_20260420165226.png",
+      "/screenshots/pk5555-screenshot-1.png",
     ],
     tips: ["Increase bet size during the 45–55 round range when a 5555 round is statistically due", "Play all 5 mini games daily to build VIP progression faster", "Top-5 Sunday leaderboard is very competitive — play Friday–Sunday for best chance"],
     pros: ["Unique 5x multiplier rounds", "5 different games in one app", "Rs. 5,000 weekly jackpot", "Strong referral bonus Rs. 150"],
