@@ -1848,13 +1848,13 @@ export const games: Game[] = [
   {
     slug: "pk5555-game",
     name: "PK5555",
-    tagline: "5x Earning Multiplier Casino Game Pakistan 2026",
-    description: "PK5555 is built around a unique 5x multiplier mechanic — earn 5 times your bet on special 5555 rounds. With 5 bonus modes, 5 mini games, and a Rs. 5,000 weekly jackpot, the number five has never been luckier for Pakistani players.",
+    tagline: "5x Earning Multiplier — PKR 1000 Welcome Bonus — Pakistan 2026",
+    description: "PK5555 is built around a unique 5x multiplier mechanic — earn 5 times your bet on special 5555 rounds. New players get a Rs. 1,000 welcome bonus instantly on signup. With 5 bonus modes, 5 mini games, and a Rs. 5,000 weekly jackpot, the number five has never been luckier for Pakistani players.",
     version: "v1.7.0", size: "45 MB", rating: 4.6, reviews: 790,
     category: "Casino / Multiplier",
     keywords: ["PK5555 APK download", "PK5555 Pakistan", "PK5555 5x multiplier", "PK5555 earning app", "PK5555 JazzCash"],
-    features: ["5x multiplier on special 5555 rounds", "5,000 jackpot weekly", "5 mini games: Slots, Fishing, Cards, Color, Crash", "Rs. 125 welcome bonus", "Refer & earn Rs. 150 per friend", "5-level VIP progression", "Minimum withdrawal Rs. 100"],
-    howToDownload: ["Download PK5555 APK from this page", "Allow Unknown Sources in phone settings", "Install PK5555.apk", "Sign up with mobile number", "Get Rs. 125 bonus and wait for a 5555 round", "Win 5x your bet on the special round"],
+    features: ["5x multiplier on special 5555 rounds", "5,000 jackpot weekly", "5 mini games: Slots, Fishing, Cards, Color, Crash", "Rs. 1,000 welcome bonus", "Refer & earn Rs. 150 per friend", "5-level VIP progression", "Minimum withdrawal Rs. 100"],
+    howToDownload: ["Download PK5555 APK from this page", "Allow Unknown Sources in phone settings", "Install PK5555.apk", "Sign up with mobile number", "Get Rs. 1,000 welcome bonus and wait for a 5555 round", "Win 5x your bet on the special round"],
     faqs: [
       { q: "When do 5555 rounds happen in PK5555?", a: "5555 rounds appear randomly approximately every 50 normal rounds. They pay 5x all bets placed." },
       { q: "What is the PK5555 weekly jackpot?", a: "Every Sunday the top 5 earners share a Rs. 5,000 prize pool." },
@@ -1873,7 +1873,7 @@ export const games: Game[] = [
     pros: ["Unique 5x multiplier rounds", "5 different games in one app", "Rs. 5,000 weekly jackpot", "Strong referral bonus Rs. 150"],
     cons: ["Android only", "5555 rounds are random", "Weekly jackpot split among top 5"],
     expertVerdict: "PK5555 is the most creative earning app mechanic we've seen in 2026. The 5555 round system creates genuine excitement — our reviewer hit one with a Rs. 300 bet and received Rs. 1,500 instantly. Five games in one app prevents boredom. JazzCash withdrawal: 4 minutes 20 seconds average. Highly innovative, highly recommended.",
-    reviewedBy: "Asad Mehmood — Casino Games Expert, GameAPKDownloads.pk", reviewedAt: "2026-04-20", downloadUrl: "http://www.5555pk1.com/?r=hwj9497", bonus: "Rs. 125 Welcome Bonus", minWithdraw: "Rs. 100", publishedAt: "2026-04-14", updatedAt: "2026-04-20", emoji: "5️⃣",
+    reviewedBy: "Asad Mehmood — Casino Games Expert, GameAPKDownloads.pk", reviewedAt: "2026-04-20", downloadUrl: "http://www.5555pk1.com/?r=hwj9497", bonus: "Rs. 1,000 Welcome Bonus", minWithdraw: "Rs. 100", publishedAt: "2026-04-14", updatedAt: "2026-04-20", emoji: "5️⃣",
   },
   {
     slug: "fastpay99-game",
