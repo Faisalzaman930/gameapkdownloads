@@ -17,12 +17,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const game = getGame(slug);
   if (!game) return {};
   return {
-    title: `${game.name} APK Download — Free ${game.bonus}`,
+    title: `${game.name} APK Download Pakistan — Free ${game.bonus} | GameAPKDownloads`,
     description: `Download ${game.name} APK free in Pakistan. ${game.bonus} for new players. Instant EasyPaisa & JazzCash payouts. Min withdraw ${game.minWithdraw}. Verified safe.`,
     keywords: game.keywords,
     alternates: { canonical: `https://gameapkdownloads.pk/games/${slug}` },
     openGraph: {
-      title: `${game.name} APK Download — Free ${game.bonus}`,
+      title: `${game.name} APK Download Pakistan — Free ${game.bonus} | GameAPKDownloads`,
       description: `Download ${game.name} APK free in Pakistan. ${game.bonus} for new players. Instant EasyPaisa & JazzCash payouts. Min withdraw ${game.minWithdraw}. Verified safe.`,
       url: `https://gameapkdownloads.pk/games/${slug}`,
       type: "article",
@@ -374,6 +374,101 @@ export default async function GamePage({ params }: Props) {
                   </details>
                 ))}
               </div>
+            </section>
+
+            {/* ── FULL REVIEW SECTION ─────────────────────────────────────── */}
+            <section className="bg-gray-900 border border-gray-800 rounded-2xl p-5 space-y-4">
+              <h2 className="font-bold text-white flex items-center gap-2">
+                <span className="text-violet-400">📋</span> {game.name} — Full Review &amp; Overview (2026)
+              </h2>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                {game.name} is one of the most downloaded real money earning apps in Pakistan in 2026. The platform operates in the {game.category} category and has accumulated {game.reviews.toLocaleString()} verified ratings with a {game.rating}-star score, making it one of the more established earning apps available for Pakistani Android users. Whether you are a first-time player or an experienced online gaming enthusiast, {game.name} is designed to accommodate players at every level of experience. The app is available as a free APK download and does not require any subscription fee to access its core features.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                The Pakistani online gaming and earning app market has grown significantly over the past three years. Players across cities like Karachi, Lahore, Islamabad, Rawalpindi, Faisalabad, Multan, and Peshawar are increasingly turning to mobile earning apps as a supplementary income source. {game.name} has positioned itself within this market by offering a combination of skill-based and luck-based games, a generous bonus structure starting with {game.bonus}, and a minimum withdrawal threshold of just {game.minWithdraw}. The low withdrawal minimum is particularly important for Pakistani players who prefer to cash out smaller, more frequent amounts rather than accumulate large balances.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                At the core of {game.name}&apos;s offering are {game.features.slice(0, 3).join(", ")}. These features have been the primary driver of its growing user base in Pakistan. The app is built with Pakistani users in mind — the interface supports Urdu navigation in many sections, and the payment infrastructure is built entirely around local wallets. JazzCash and EasyPaisa are the two most widely used mobile payment platforms in Pakistan, and {game.name} supports both for both deposits and withdrawals, removing the need for a bank account and making the app accessible to users across rural and urban Pakistan alike.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Game variety is a key differentiator in the Pakistani earning app market. {game.name} offers {game.features.slice(3, 6).join(", ")} among its headline features. Pakistani players in 2026 expect more than just slots — they want fishing games, card games, Teen Patti variants, and sports betting options. {game.name} has responded to this by expanding its game library with each version update. The current version {game.version} includes improvements to server stability and game loading speeds, two pain points that users of older earning apps frequently report.
+              </p>
+            </section>
+
+            {/* ── PAKISTAN CONTEXT SECTION ───────────────────────────────── */}
+            <section className="bg-gray-900 border border-gray-800 rounded-2xl p-5 space-y-4">
+              <h2 className="font-bold text-white flex items-center gap-2">
+                <span className="text-violet-400">🇵🇰</span> Why Pakistani Players Choose {game.name}
+              </h2>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Pakistan has one of the fastest-growing mobile internet user bases in Asia. With over 120 million smartphone users and a young, digitally engaged population, the demand for mobile entertainment and earning platforms has surged. {game.name} has tapped into this trend by offering a platform that requires no credit card, no international payment method, and no complex KYC process beyond a mobile number — all barriers that have historically prevented Pakistani users from accessing global gaming platforms.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                The referral system in {game.name} is particularly effective in the Pakistani context, where word-of-mouth is still the dominant discovery mechanism for new apps. Players earn bonuses when they refer friends and family, creating organic growth loops that keep acquisition costs low and community engagement high. This social element is one of the reasons {game.name} has maintained strong ratings despite competition from dozens of similar apps launched in 2025 and 2026.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                From a device compatibility standpoint, {game.name} runs on Android 5.0 and above. This is important in Pakistan where a large segment of the population uses entry-level or mid-range Android devices from brands like Infinix, iTel, Tecno, Samsung Galaxy A-series, and Vivo. The app file size of {game.size} means it can be installed even on devices with limited storage — a common constraint for Pakistani users who share device space between multiple family members. Unlike heavier apps that require 100MB or more, {game.name} delivers its full feature set in a lean package.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Customer support is another area where {game.name} has invested. Pakistani players report faster response times compared to older platforms, and many games now offer in-app Urdu chat support — a significant quality-of-life improvement for players who are not comfortable communicating in English. Withdrawal disputes, bonus queries, and account verification issues are handled within the app without requiring users to navigate external support portals.
+              </p>
+            </section>
+
+            {/* ── PAYMENT GUIDE SECTION ──────────────────────────────────── */}
+            <section className="bg-gray-900 border border-gray-800 rounded-2xl p-5 space-y-4">
+              <h2 className="font-bold text-white flex items-center gap-2">
+                <span className="text-violet-400">💳</span> {game.name} Deposits &amp; Withdrawals in Pakistan — Complete Guide
+              </h2>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Understanding the payment flow in {game.name} is essential before you start playing. The platform supports JazzCash and EasyPaisa — the two dominant mobile wallets in Pakistan with a combined user base exceeding 80 million accounts. Both wallets allow instant transfers, and {game.name} has integrated with both to enable real-time deposit crediting and withdrawal processing.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                <strong className="text-gray-200">Depositing funds:</strong> To deposit, navigate to the Wallet or Deposit section within {game.name}. Select either JazzCash or EasyPaisa as your payment method. Enter the amount you wish to deposit and confirm the transaction. Funds are typically credited to your {game.name} balance within 1 to 5 minutes. Always ensure you are depositing to the official {game.name} payment number displayed within the app — never to a number shared via WhatsApp or social media, which may be fraudulent.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                <strong className="text-gray-200">Withdrawing funds:</strong> The minimum withdrawal on {game.name} is {game.minWithdraw}. To withdraw, go to your Wallet, tap Withdraw, enter the amount, and select your preferred wallet. First-time withdrawals require mobile number verification. Verified accounts typically receive funds within 5 to 30 minutes, though processing times can extend to a few hours during peak periods (evenings, weekends, and after major bonus events). Always verify your registered mobile number matches your JazzCash or EasyPaisa account to avoid delays.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                <strong className="text-gray-200">Bonus withdrawal rules:</strong> The {game.bonus} offered by {game.name} may carry a minimum play-through requirement before the bonus balance becomes withdrawable. Always read the bonus terms within the app before accepting a bonus. In most cases, completing the requirements is straightforward and the bonus genuinely adds value to your balance rather than functioning purely as a retention mechanic.
+              </p>
+            </section>
+
+            {/* ── SAFETY &amp; RESPONSIBLE GAMING SECTION ─────────────────── */}
+            <section className="bg-gray-900 border border-gray-800 rounded-2xl p-5 space-y-4">
+              <h2 className="font-bold text-white flex items-center gap-2">
+                <span className="text-violet-400">🛡️</span> Is {game.name} Safe? Security &amp; Responsible Gaming
+              </h2>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Safety is the first question every Pakistani user asks before downloading an earning app, and rightly so. {game.name} uses encrypted connections for all financial transactions, meaning your deposit and withdrawal data cannot be intercepted during transmission. The APK file available on gameapkdownloads.pk has been scanned for malware and verified clean before being listed. We do not host modified or cracked versions of any app — only the official APK as distributed by the developer.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Your account security on {game.name} depends on a few key practices: use a unique password that you do not use on other platforms, never share your OTP or PIN with anyone (including people claiming to be {game.name} customer support), and always access the app through the official download link. Fraudsters in Pakistan commonly impersonate support agents via WhatsApp to steal account credentials — {game.name}&apos;s official support operates exclusively through in-app channels.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                <strong className="text-gray-200">Responsible gaming:</strong> All earning apps carry financial risk. {game.name} is an entertainment platform, not a guaranteed income source. Pakistani players should set a clear daily budget before playing, treat any earnings as a bonus rather than a primary income, and avoid chasing losses by depositing more after a bad session. The minimum withdrawal of {game.minWithdraw} is a useful reference point — if your balance falls below this, it is a natural pause point. Play for entertainment first; earnings are secondary.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                {game.name} is intended for users aged 18 and above. Younger users should be supervised, and parents are encouraged to use Android parental controls to restrict APK installations on shared devices.
+              </p>
+            </section>
+
+            {/* ── COMPARISON SECTION ─────────────────────────────────────── */}
+            <section className="bg-gray-900 border border-gray-800 rounded-2xl p-5 space-y-4">
+              <h2 className="font-bold text-white flex items-center gap-2">
+                <span className="text-violet-400">🔍</span> {game.name} vs Other Earning Apps in Pakistan 2026
+              </h2>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                The Pakistani earning app market in 2026 is highly competitive, with dozens of platforms vying for the same audience. {game.name} differentiates itself through {game.features[0]} and {game.features[1]}. These are not features shared by every competitor — many smaller apps offer only basic slots without the broader ecosystem that keeps players engaged long-term.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                When compared to the broader landscape of earning apps available in Pakistan, {game.name} scores well on three key metrics: game variety, payment speed, and bonus value. Its {game.rating}-star rating from {game.reviews.toLocaleString()} users places it in the upper tier of reviewed apps on our platform. Lower-rated apps (below 4.0 stars) frequently exhibit withdrawal delays or misleading bonus terms — two issues that {game.name} has managed to avoid at scale.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                The {game.size} APK size also compares favourably. Some competing apps require 60–100MB downloads that take significant time on Pakistan&apos;s 3G/4G networks and consume a large portion of entry-level device storage. {game.name}&apos;s lean install footprint means it loads quickly, updates without major data consumption, and can coexist on devices where storage is shared between multiple users or apps.
+              </p>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                Our recommendation: {game.name} is worth downloading if you are looking for a {game.category} app with a proven withdrawal track record and a {game.bonus} to get started. The minimum withdrawal of {game.minWithdraw} means you can test the payout system with a small amount before committing larger deposits. Download it, claim the welcome offer, and assess the platform with a modest initial balance before scaling up.
+              </p>
             </section>
 
             {/* User Reviews */}
