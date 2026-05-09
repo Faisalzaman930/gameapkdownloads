@@ -50,6 +50,7 @@ const navLinks = [
   { href: "/categories/casino", label: "Casino" },
   { href: "/categories/slots", label: "Slots" },
   { href: "/categories/sports", label: "Sports" },
+  { href: "/blog", label: "Blog" },
   { href: "/about", label: "About" },
 ];
 
