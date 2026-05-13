@@ -62,7 +62,7 @@ const categories = [
 ];
 
 export default function HomePage() {
-  const games = getLatestGames(10);
+  const games = getLatestGames(113);
 
   return (
     <>
