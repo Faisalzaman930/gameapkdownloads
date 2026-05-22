@@ -3014,8 +3014,13 @@ export const games: Game[] = [
       { author: "Usman Farooq", rating: 5, body: "Best new earning app I have tried. Fast withdrawals and no issues with my JazzCash account.", date: "2026-05-08" },
     ],
     installs: "15K+",
-    image: "https://slotspk.io/wp-content/uploads/2025/10/JWin-Game.webp",
-    screenshots: ["https://slotspk.io/wp-content/uploads/2025/10/JWin-Game.webp"],
+    image: "https://juwapatti.com/wp-content/uploads/2025/04/jjwin.webp",
+    screenshots: [
+      "https://juwapatti.com/wp-content/uploads/2025/04/jjwin.webp",
+      "https://juwapatti.com/wp-content/uploads/2025/04/jj-win.webp",
+      "https://juwapatti.com/wp-content/uploads/2025/04/jjwin-game.webp",
+      "https://playdro.net/wp-content/uploads/2025/11/jjwin-game-Download-Image-1.webp",
+    ],
     downloadUrl: "https://jwin.game/",
     tips: [
       "Claim the daily login bonus every day — the streak multiplier increases your payout after 7 consecutive days",
@@ -3068,8 +3073,11 @@ export const games: Game[] = [
       { author: "Hassan Butt", rating: 4, body: "Best referral scheme I have found — 20% lifetime. Already earning passively from 3 friends. VIP programme is genuinely rewarding.", date: "2026-05-10" },
     ],
     installs: "500K+",
-    image: "https://slotspk.io/wp-content/uploads/2025/10/BC-Game.webp",
-    screenshots: ["https://slotspk.io/wp-content/uploads/2025/10/BC-Game.webp"],
+    image: "https://bcgame-download.net/wp-content/uploads/2025/05/bc-game-logo-2.webp",
+    screenshots: [
+      "https://bcgame-download.net/wp-content/uploads/2025/05/bc-game-logo-2.webp",
+      "https://bcgame-download.net/wp-content/uploads/2025/04/bc-game-apk.webp",
+    ],
     downloadUrl: "https://bc.game/",
     tips: [
       "Start with the Crash game at 1.2x auto-cashout to build your balance safely before trying higher multipliers",
@@ -3122,8 +3130,14 @@ export const games: Game[] = [
       { author: "Ali Hassan", rating: 4, body: "Crash game is fast and fair. Server speed improved a lot in the 2026 update. Good referral bonus too.", date: "2026-05-12" },
     ],
     installs: "30K+",
-    image: "https://slotspk.io/wp-content/uploads/2025/10/666-Game.webp",
-    screenshots: ["https://slotspk.io/wp-content/uploads/2025/10/666-Game.webp"],
+    image: "https://666-wgame.com.pk/wp-content/uploads/2025/12/666W-game.webp",
+    screenshots: [
+      "https://666-wgame.com.pk/wp-content/uploads/2025/12/666W-game.webp",
+      "https://666-wgame.com.pk/wp-content/uploads/2025/12/image-55.webp",
+      "https://666-wgame.com.pk/wp-content/uploads/2025/12/image-56.webp",
+      "https://666-wgame.com.pk/wp-content/uploads/2025/12/image-57.webp",
+      "https://666-wgame.com.pk/wp-content/uploads/2025/12/666W-game-feaured.webp",
+    ],
     downloadUrl: "https://666game.app/",
     tips: [
       "Complete all daily tasks before touching the main games — up to Rs. 200 free per day with zero risk",
@@ -3176,8 +3190,11 @@ export const games: Game[] = [
       { author: "Rehan Sultan", rating: 4, body: "Solid VIP programme — reached Tier 3 in two weeks. Withdrawals have been consistently fast to JazzCash.", date: "2026-05-13" },
     ],
     installs: "40K+",
-    image: "https://slotspk.io/wp-content/uploads/2025/10/JoyPK777-Game.webp",
-    screenshots: ["https://slotspk.io/wp-content/uploads/2025/10/JoyPK777-Game.webp"],
+    image: "https://apkmud.com/wp-content/uploads/2026/05/JoyPK777-Game-Download-1024x459.webp",
+    screenshots: [
+      "https://apkmud.com/wp-content/uploads/2026/05/JoyPK777-Game-Download-1024x459.webp",
+      "https://apkmud.com/wp-content/uploads/2026/05/JoyPK777-1024x459.webp",
+    ],
     downloadUrl: "https://joypk777.com/",
     tips: [
       "Enter tournaments as early as possible — prize pools distribute to top 20 players and early entries face lower competition",
@@ -3230,8 +3247,14 @@ export const games: Game[] = [
       { author: "Imran Chaudhry", rating: 5, body: "Smooth app with no crashes. Rs. 110 per referral and the dashboard actually shows who clicked my link. Withdrawal to JazzCash was under 3 minutes.", date: "2026-05-14" },
     ],
     installs: "35K+",
-    image: "https://slotspk.io/wp-content/uploads/2025/10/8888-Game.webp",
-    screenshots: ["https://slotspk.io/wp-content/uploads/2025/10/8888-Game.webp"],
+    image: "https://apkboat.pk/wp-content/uploads/2026/02/pk8888-game.webp",
+    screenshots: [
+      "https://apkboat.pk/wp-content/uploads/2026/02/pk8888-game.webp",
+      "https://apkdel.com/wp-content/uploads/2026/03/pk8888-game-apk-1-1024x754.webp",
+      "https://apkdel.com/wp-content/uploads/2026/03/pk8888-game-1-1024x754.webp",
+      "https://apkdel.com/wp-content/uploads/2026/03/pk888-download-1024x754.webp",
+      "https://apkdel.com/wp-content/uploads/2026/03/rewards-in-pk8888-game-1024x754.webp",
+    ],
     downloadUrl: "https://8888game.app/",
     tips: [
       "Do the Lucky 8s daily challenge before anything else — Rs. 180 free per day adds up to Rs. 5,400 per month at zero cost",
@@ -3285,7 +3308,11 @@ export const games: Game[] = [
     ],
     installs: "60K+",
     image: "https://slotspk.io/wp-content/uploads/2025/10/PK365-Game.webp",
-    screenshots: ["https://slotspk.io/wp-content/uploads/2025/10/PK365-Game.webp"],
+    screenshots: [
+      "https://slotspk.io/wp-content/uploads/2025/10/PK365-Game.webp",
+      "https://gameistan.com.pk/wp-content/uploads/2025/11/download-16.jpeg",
+      "https://gameistan.com.pk/wp-content/uploads/2026/04/Screenshot-2026-04-07-at-1.12.36-AM-1-604x1024.png",
+    ],
     downloadUrl: "https://pk365.game/",
     tips: [
       "Never miss a day on the 365-day calendar — missing a single day resets your streak and you lose the compounding reward",
