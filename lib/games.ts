@@ -22,6 +22,8 @@ export interface Game {
   expertVerdict?: string;
   reviewedBy?: string;
   reviewedAt?: string;
+  lastVerified?: string;
+  howToWithdraw?: string[];
   downloadUrl?: string;
   bonus: string;
   minWithdraw: string;

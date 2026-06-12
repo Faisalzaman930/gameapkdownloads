@@ -1,17 +1,18 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { getLatestGames } from "@/lib/games";
+import { getLatestGames, games as allGames } from "@/lib/games";
+import GamblingDisclaimer from "./components/GamblingDisclaimer";
 
 export const metadata: Metadata = {
-  title: "Game APK Downloads Pakistan — Real Money Earning Apps 2026",
+  title: "Game APK Downloads Pakistan — Earning Apps 2026",
   description:
-    "Download free earning app APKs in Pakistan. Verified safe, instant EasyPaisa & JazzCash payouts. Get your welcome bonus today — updated daily.",
+    "Download earning app APKs in Pakistan. EasyPaisa & JazzCash payment guides, community reviews, and step-by-step download instructions. Updated regularly.",
   alternates: { canonical: "https://gameapkdownloads.pk" },
   openGraph: {
-    title: "Game APK Downloads Pakistan — Real Money Earning Apps 2026",
+    title: "Game APK Downloads Pakistan — Earning Apps 2026",
     description:
-      "Download free earning app APKs in Pakistan. Verified safe, instant EasyPaisa & JazzCash payouts. Get your welcome bonus today.",
+      "Download earning app APKs in Pakistan. EasyPaisa & JazzCash payment guides and community reviews.",
     url: "https://gameapkdownloads.pk",
     type: "website",
   },
@@ -23,34 +24,13 @@ const websiteSchema = {
   name: "GameAPKDownloads.pk",
   url: "https://gameapkdownloads.pk",
   description:
-    "Pakistan's most trusted source for game APK downloads and earning app reviews.",
+    "Pakistan's source for game APK downloads and earning app reviews.",
   potentialAction: {
     "@type": "SearchAction",
     target: "https://gameapkdownloads.pk/search?q={search_term_string}",
     "query-input": "required name=search_term_string",
   },
 };
-
-const collectionSchema = {
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  name: "Top 10 Latest Earning Game APKs Pakistan 2026",
-  description:
-    "Curated list of the best real money earning apps available for download in Pakistan in 2026.",
-  url: "https://gameapkdownloads.pk",
-  mainEntity: {
-    "@type": "ItemList",
-    name: "Top 10 Latest Games",
-    numberOfItems: 10,
-  },
-};
-
-const stats = [
-  { label: "Games Listed", value: "110+" },
-  { label: "Daily Downloads", value: "25K+" },
-  { label: "Verified Payouts", value: "50K+" },
-  { label: "Avg. Rating", value: "4.5 ★" },
-];
 
 const categories = [
   { label: "Casino Games", icon: "🎰", href: "/categories/casino", count: 40 },
@@ -63,6 +43,29 @@ const categories = [
 
 export default function HomePage() {
   const games = getLatestGames(113);
+
+  // Dynamically compute stats from real data
+  const avgRating = (allGames.reduce((sum, g) => sum + g.rating, 0) / allGames.length).toFixed(1);
+  const stats = [
+    { label: "Games Listed", value: `${allGames.length}` },
+    { label: "Avg. Rating", value: `${avgRating} ★` },
+    { label: "Min Withdrawal", value: "Rs. 100" },
+    { label: "Payment Methods", value: "EasyPaisa & JazzCash" },
+  ];
+
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Latest Earning Game APKs Pakistan 2026",
+    description:
+      "Curated list of earning apps available for download in Pakistan in 2026.",
+    url: "https://gameapkdownloads.pk",
+    mainEntity: {
+      "@type": "ItemList",
+      name: "Latest Games",
+      numberOfItems: allGames.length,
+    },
+  };
 
   return (
     <>
@@ -88,16 +91,16 @@ export default function HomePage() {
         <div className="relative max-w-7xl mx-auto px-4 py-16 md:py-24 text-center">
           <div className="inline-flex items-center gap-2 bg-violet-500/10 border border-violet-500/30 text-violet-400 text-xs font-semibold px-3 py-1 rounded-full mb-6">
             <span className="w-1.5 h-1.5 bg-violet-400 rounded-full animate-pulse" />
-            Updated Daily — Latest Games April 2026
+            Updated Regularly — Latest Games 2026
           </div>
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight">
-            Pakistan&apos;s #1 Source for
+            Pakistan&apos;s Source for
             <br />
             <span className="text-violet-400">Game APK Downloads</span>
           </h1>
           <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-8">
-            Download the latest real money earning apps in Pakistan. Honest reviews, verified
-            payouts, and step-by-step guides for EasyPaisa &amp; JazzCash withdrawals.
+            Download the latest earning apps in Pakistan. Community-reviewed APKs with
+            step-by-step guides for EasyPaisa &amp; JazzCash withdrawals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
@@ -110,11 +113,11 @@ export default function HomePage() {
               href="#latest"
               className="border border-gray-700 hover:border-violet-500 text-gray-300 hover:text-violet-400 font-semibold px-8 py-3.5 rounded-full text-base transition-all"
             >
-              Top 10 Latest ↓
+              Latest Games ↓
             </Link>
           </div>
 
-          {/* Stats */}
+          {/* Stats — dynamically computed from real data */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-14 max-w-3xl mx-auto">
             {stats.map((s) => (
               <div key={s.label} className="bg-gray-900/60 border border-gray-800 rounded-xl p-4">
@@ -122,6 +125,11 @@ export default function HomePage() {
                 <p className="text-xs text-gray-500 mt-0.5">{s.label}</p>
               </div>
             ))}
+          </div>
+
+          {/* Gambling disclaimer — above fold */}
+          <div className="mt-8 max-w-2xl mx-auto text-left">
+            <GamblingDisclaimer />
           </div>
         </div>
       </section>
@@ -146,15 +154,15 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* TOP 10 LATEST GAMES */}
+      {/* LATEST GAMES */}
       <section id="latest" className="max-w-7xl mx-auto px-4 pb-16">
         <div className="flex items-center justify-between mb-6">
           <div>
             <h2 className="text-2xl font-extrabold text-white">
-              🔥 Top 10 Latest Games — April 2026
+              🔥 Latest Games — 2026
             </h2>
             <p className="text-gray-500 text-sm mt-1">
-              Sorted by most recently updated. All APKs verified and safe.
+              Sorted by most recently updated.
             </p>
           </div>
           <Link href="/games" className="text-violet-400 text-sm hover:underline hidden sm:block">
@@ -193,7 +201,7 @@ export default function HomePage() {
                 <div className="flex-1 min-w-0">
                   <div className="flex items-start justify-between gap-1 mb-0.5">
                     <h3 className="font-bold text-white text-sm group-hover:text-violet-400 transition-colors leading-tight">
-                      {game.name}
+                      {game.name} APK Download
                     </h3>
                     <span className="text-xs text-gray-600 flex-shrink-0">#{i + 1}</span>
                   </div>
@@ -213,7 +221,7 @@ export default function HomePage() {
               {/* Download button at bottom */}
               <div className="px-4 pb-4">
                 <div className="flex items-center justify-between bg-orange-500 group-hover:bg-orange-400 rounded-xl px-4 py-2.5 transition-colors">
-                  <span className="text-xs font-bold text-gray-950">⬇️ Download APK</span>
+                  <span className="text-xs font-bold text-gray-950">⬇️ {game.name} APK — Download Free</span>
                   <span className="text-xs text-gray-800 font-medium">Free</span>
                 </div>
               </div>
@@ -232,18 +240,18 @@ export default function HomePage() {
             {[
               {
                 icon: "🛡️",
-                title: "Verified & Safe APKs",
-                desc: "Every APK is scanned for malware before listing. We only publish apps with verified withdrawal proofs.",
+                title: "Community-Reviewed APKs",
+                desc: "Apps are reviewed by our team and community before listing. We check download links and document our findings.",
               },
               {
                 icon: "⚡",
-                title: "Updated Daily",
-                desc: "Our team reviews and updates game listings every day so you always get the latest version with newest bonuses.",
+                title: "Updated Regularly",
+                desc: "Our team reviews and updates game listings regularly so you always get the latest version and bonus information.",
               },
               {
                 icon: "💸",
                 title: "Withdrawal Guides Included",
-                desc: "Every game page includes step-by-step EasyPaisa & JazzCash withdrawal guides with screenshots.",
+                desc: "Every game page includes step-by-step EasyPaisa & JazzCash withdrawal guides based on our hands-on testing.",
               },
             ].map((item) => (
               <div
@@ -262,13 +270,12 @@ export default function HomePage() {
       {/* SEO TEXT */}
       <section className="max-w-4xl mx-auto px-4 py-12 text-gray-400 text-sm leading-loose">
         <h2 className="text-xl font-bold text-white mb-4">
-          Best Real Money Earning Games in Pakistan 2026
+          Earning Apps &amp; Game APK Downloads in Pakistan 2026
         </h2>
         <p className="mb-4">
-          Looking for the latest game APK downloads in Pakistan? GameAPKDownloads.pk is your
-          one-stop destination for safe, verified, and up-to-date earning apps. Whether you&apos;re
-          into casino mini-games, fishing games, Rummy, or sports prediction — we cover them all
-          with honest reviews and real withdrawal proofs.
+          Looking for the latest game APK downloads in Pakistan? GameAPKDownloads.pk covers
+          earning apps across casino mini-games, fishing games, Rummy, and sports prediction —
+          with community reviews and detailed withdrawal guides.
         </p>
         <p className="mb-4">
           All apps listed on this site support{" "}
@@ -278,9 +285,8 @@ export default function HomePage() {
           questions.
         </p>
         <p>
-          Our editorial team tests every app before publishing. We verify that withdrawals work,
-          bonuses are as advertised, and the APK is free of malware. Bookmark this page and check
-          back daily — we add new games every week.
+          Our team documents the apps they use, including download steps and withdrawal processes.
+          Check back regularly — we add new game listings weekly.
         </p>
       </section>
     </>

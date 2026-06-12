@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getGame, games } from "@/lib/games";
+import GamblingDisclaimer from "@/app/components/GamblingDisclaimer";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -18,12 +19,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!game) return {};
   return {
     title: `${game.name} APK Download Pakistan — Free ${game.bonus} | GameAPKDownloads`,
-    description: `Download ${game.name} APK free in Pakistan. ${game.bonus} for new players. Instant EasyPaisa & JazzCash payouts. Min withdraw ${game.minWithdraw}. Verified safe.`,
-    keywords: game.keywords,
+    description: `Download ${game.name} APK free in Pakistan. ${game.bonus} for new players. EasyPaisa & JazzCash supported. Min withdraw ${game.minWithdraw}. Reviewed by our team.`,
     alternates: { canonical: `https://gameapkdownloads.pk/games/${slug}` },
     openGraph: {
       title: `${game.name} APK Download Pakistan — Free ${game.bonus} | GameAPKDownloads`,
-      description: `Download ${game.name} APK free in Pakistan. ${game.bonus} for new players. Instant EasyPaisa & JazzCash payouts. Min withdraw ${game.minWithdraw}. Verified safe.`,
+      description: `Download ${game.name} APK free in Pakistan. ${game.bonus} for new players. EasyPaisa & JazzCash supported. Min withdraw ${game.minWithdraw}.`,
       url: `https://gameapkdownloads.pk/games/${slug}`,
       type: "article",
     },
@@ -35,7 +35,10 @@ export default async function GamePage({ params }: Props) {
   const game = getGame(slug);
   if (!game) notFound();
 
-  const relatedGames = games.filter((g) => g.slug !== slug).slice(0, 6);
+  // Prefer same-category games for related; fall back to other games if not enough
+  const sameCategory = games.filter((g) => g.slug !== slug && g.category === game.category);
+  const otherGames = games.filter((g) => g.slug !== slug && g.category !== game.category);
+  const relatedGames = [...sameCategory, ...otherGames].slice(0, 6);
   const stars = Math.round(game.rating);
 
   const softwareSchema = {
@@ -94,9 +97,15 @@ export default async function GamePage({ params }: Props) {
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://gameapkdownloads.pk" },
       { "@type": "ListItem", position: 2, name: "Games", item: "https://gameapkdownloads.pk/games" },
-      { "@type": "ListItem", position: 3, name: game.name, item: `https://gameapkdownloads.pk/games/${slug}` },
+      { "@type": "ListItem", position: 3, name: game.category, item: `https://gameapkdownloads.pk/categories/${game.category.toLowerCase().split(/[\s/]/)[0]}` },
+      { "@type": "ListItem", position: 4, name: game.name, item: `https://gameapkdownloads.pk/games/${slug}` },
     ],
   };
+
+  // Build warning if description is thin (development aid)
+  if (process.env.NODE_ENV === "development" && game.description.length < 50) {
+    console.warn(`[GamePage] Thin description for "${game.slug}": only ${game.description.length} chars. Add a 200+ word unique description.`);
+  }
 
   return (
     <>
@@ -110,7 +119,9 @@ export default async function GamePage({ params }: Props) {
         <div className="max-w-5xl mx-auto px-4 py-2 text-xs text-gray-500 flex items-center gap-1.5 flex-wrap">
           <Link href="/" className="hover:text-violet-400">Home</Link>
           <span>/</span>
-          <Link href="/games" className="hover:text-violet-400">Game</Link>
+          <Link href="/games" className="hover:text-violet-400">Games</Link>
+          <span>/</span>
+          <Link href={`/categories/${game.category.toLowerCase().split(/[\s/]/)[0]}`} className="hover:text-violet-400">{game.category}</Link>
           <span>/</span>
           <span className="text-gray-300">{game.name}</span>
         </div>
@@ -199,14 +210,20 @@ export default async function GamePage({ params }: Props) {
 
               {/* Trust row */}
               <div className="flex items-center gap-4 mt-4 text-xs text-gray-600 flex-wrap">
-                <span>✅ No malware</span>
+                <span>✅ No malware detected</span>
                 <span>✅ EasyPaisa supported</span>
                 <span>✅ JazzCash supported</span>
                 <span>✅ Free to download</span>
+                {(game.lastVerified ?? game.updatedAt) && (
+                  <span>🗓 Last verified: {new Date(game.lastVerified ?? game.updatedAt).toLocaleDateString("en-PK", { month: "short", day: "numeric", year: "numeric" })}</span>
+                )}
               </div>
             </div>
           </div>
         </div>
+
+        {/* Gambling disclaimer */}
+        <GamblingDisclaimer />
 
         {/* CONTENT GRID */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">

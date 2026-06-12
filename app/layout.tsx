@@ -15,14 +15,7 @@ export const metadata: Metadata = {
     template: "%s | GameAPKDownloads.pk",
   },
   description:
-    "Download 30+ real money earning apps in Pakistan. Free APKs, verified payouts, EasyPaisa & JazzCash guides. Updated daily.",
-  keywords: [
-    "game apk download pakistan",
-    "earning app pakistan",
-    "real money games pakistan 2026",
-    "easypaisa withdrawal games",
-    "jazzcash earning app",
-  ],
+    "Download earning apps in Pakistan. Free APKs, EasyPaisa & JazzCash payment guides. Reviewed by real users. Updated regularly.",
   openGraph: {
     siteName: "GameAPKDownloads.pk",
     locale: "en_PK",

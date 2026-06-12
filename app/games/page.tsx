@@ -6,7 +6,7 @@ import { games } from "@/lib/games";
 export const metadata: Metadata = {
   title: "All Earning Game APKs Pakistan — Free Download 2026",
   description:
-    "30+ earning app APKs for Pakistan. All free, verified safe. Casino, slots, sports & more. EasyPaisa & JazzCash payouts. Download your app now.",
+    "Earning app APKs for Pakistan. Casino, slots, sports & more. EasyPaisa & JazzCash payment guides. Community reviewed. Download free.",
   alternates: { canonical: "https://gameapkdownloads.pk/games" },
 };
 
@@ -25,7 +25,7 @@ export default function GamesPage() {
           All Game APK Downloads — Pakistan 2026
         </h1>
         <p className="text-gray-400">
-          {games.length} games listed. All APKs verified, safe, and updated regularly.
+          {games.length} games listed. Community reviewed and updated regularly.
         </p>
       </div>
 

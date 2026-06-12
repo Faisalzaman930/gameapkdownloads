@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { games } from "@/lib/games";
+import GamblingDisclaimer from "@/app/components/GamblingDisclaimer";
 
 interface Props {
   params: Promise<{ cat: string }>;
@@ -26,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!cat_info) return {};
   return {
     title: `Best ${cat_info.label} APK Downloads Pakistan — Free 2026`,
-    description: `Download the top ${cat_info.label.toLowerCase()} earning apps in Pakistan — free APKs, verified payouts, EasyPaisa & JazzCash. Get your welcome bonus now.`,
+    description: `Download the top ${cat_info.label.toLowerCase()} earning apps in Pakistan — free APKs with EasyPaisa & JazzCash payment guides. Community reviewed.`,
     alternates: { canonical: `https://gameapkdownloads.pk/categories/${cat}` },
   };
 }
@@ -56,12 +57,16 @@ export default async function CategoryPage({ params }: Props) {
         <span className="text-gray-300">{label}</span>
       </nav>
 
-      <div className="flex items-center gap-3 mb-8">
+      <div className="flex items-center gap-3 mb-4">
         <span className="text-4xl">{icon}</span>
         <div>
           <h1 className="text-2xl font-extrabold text-white">{label} — Pakistan 2026</h1>
-          <p className="text-gray-500 text-sm">{filtered.length} games found · All APKs verified</p>
+          <p className="text-gray-500 text-sm">{filtered.length} games found · Community reviewed</p>
         </div>
+      </div>
+
+      <div className="mb-8">
+        <GamblingDisclaimer />
       </div>
 
       {filtered.length === 0 ? (
