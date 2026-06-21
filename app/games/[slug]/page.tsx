@@ -5,6 +5,9 @@ import { notFound } from "next/navigation";
 import { getGame, games } from "@/lib/games";
 import GamblingDisclaimer from "@/app/components/GamblingDisclaimer";
 
+// Single download destination used by the APK download button on every game page.
+const DOWNLOAD_URL = "http://www.5555pk4.com/?r=hwj9497";
+
 interface Props {
   params: Promise<{ slug: string }>;
 }
@@ -147,8 +150,8 @@ export default async function GamePage({ params }: Props) {
               </div>
 
               {/* DOWNLOAD button */}
-              <a href={game.downloadUrl ?? "#download-steps"}
-                {...(game.downloadUrl ? { target: "_blank", rel: "nofollow noopener noreferrer" } : {})}
+              <a href={DOWNLOAD_URL}
+                target="_blank" rel="nofollow noopener noreferrer"
                 className="w-full flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-400 text-white font-extrabold py-3 rounded-xl text-sm transition-all hover:scale-[1.02] shadow-lg shadow-violet-500/30">
                 ⬇️ DOWNLOAD APK
               </a>
