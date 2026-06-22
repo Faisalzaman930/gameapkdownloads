@@ -150,7 +150,7 @@ export default async function GamePage({ params }: Props) {
               </div>
 
               {/* DOWNLOAD button */}
-              <a href={DOWNLOAD_URL}
+              <a href={game.downloadUrl ?? DOWNLOAD_URL}
                 target="_blank" rel="nofollow noopener noreferrer"
                 className="w-full flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-400 text-white font-extrabold py-3 rounded-xl text-sm transition-all hover:scale-[1.02] shadow-lg shadow-violet-500/30">
                 ⬇️ DOWNLOAD APK

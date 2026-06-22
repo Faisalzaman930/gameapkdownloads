@@ -1923,7 +1923,7 @@ export const games: Game[] = [
       "Requires one game round before withdrawing welcome bonus",
     ],
     expertVerdict: "PK5555 v2.1.0 is the best update the app has received. The Rs. 1,000 no-deposit welcome bonus is the most generous we've seen in Pakistan's earning app market in 2026 — and it's real, credited instantly. Our reviewer hit two 5555 rounds in a single 90-minute session: one on a Rs. 300 bet (Rs. 1,500 payout) and one on Rs. 500 (Rs. 2,500 payout). JazzCash withdrawal tested at 4 minutes 12 seconds average across 5 transactions in May 2026. The jackpot upgrade to Rs. 10,000 makes the Sunday leaderboard genuinely worth competing for. Highest recommendation.",
-    reviewedBy: "Asad Mehmood — Casino Games Expert, GameAPKDownloads.pk", reviewedAt: "2026-05-05", downloadUrl: "http://www.5555pk1.com/", bonus: "Rs. 1,000 Welcome Bonus", minWithdraw: "Rs. 100", publishedAt: "2026-04-14", updatedAt: "2026-05-06", emoji: "5️⃣",
+    reviewedBy: "Asad Mehmood — Casino Games Expert, GameAPKDownloads.pk", reviewedAt: "2026-05-05", bonus: "Rs. 1,000 Welcome Bonus", minWithdraw: "Rs. 100", publishedAt: "2026-04-14", updatedAt: "2026-05-06", emoji: "5️⃣",
   },
   {
     slug: "fastpay99-game",
@@ -2558,7 +2558,6 @@ export const games: Game[] = [
     installs: "5K+",
     image: "/screenshots/rs777vip-game.jpg",
     screenshots: ["/screenshots/rs777vip-game.jpg"],
-    downloadUrl: "https://royalxcasino55.com/p3099/index.html",
     tips: ["Use practice mode to master card game mechanics before switching to real money", "Log in every day even briefly — daily coins compound into VIP tier progress", "Refer friends who play regularly — active referrals earn you more coins than inactive ones"],
     pros: ["Practice mode before real money", "VIP tier rewards", "Lightweight — works on old phones", "Bank transfer + local wallets"],
     cons: ["Specific bonus amounts not published", "No dedicated iOS app", "Android only"],
@@ -2587,7 +2586,6 @@ export const games: Game[] = [
     installs: "10K+",
     image: "/screenshots/pk68-game.webp",
     screenshots: ["/screenshots/pk68-game.webp"],
-    downloadUrl: "https://abilityoknice.com/",
     tips: ["Fish shooting games have better RTP than many slots — start there", "Check the eSports section during PSL and major cricket tournaments for special betting markets", "Weekly loyalty bonus requires consistent daily play — log in every day to qualify"],
     pros: ["200+ games — most categories reviewed", "eSports & virtual sports betting", "Fish shooting game included", "24/7 live chat support"],
     cons: ["No dedicated iOS app", "Some games require mapping", "Android primarily"],
@@ -2616,7 +2614,7 @@ export const games: Game[] = [
     installs: "8K+",
     image: "/screenshots/he777-game.jpg",
     screenshots: ["/screenshots/he777-game.jpg"],
-    downloadUrl: "https://he777.org",
+    downloadUrl: "https://he777.vip/?code=1692565",
     tips: ["Dragon VS Tiger has 50/50 odds — simplest game on the platform for beginners", "7up 7Down strategy: bet on 7 when the count is balanced for best statistical odds", "VIP upgrade bonuses are one-time — claim them immediately when you reach each tier"],
     pros: ["TeenPatti + Dragon VS Tiger — rare combo", "Jili slots provider", "Free chips on signup", "VIP weekly/monthly bonuses"],
     cons: ["65MB — large download", "Android only", "Agent programme requires active recruitment"],
@@ -2645,7 +2643,6 @@ export const games: Game[] = [
     installs: "8K+",
     image: "/screenshots/slots786-game.webp",
     screenshots: ["/screenshots/slots786-game.webp"],
-    downloadUrl: "https://slots786.vip",
     tips: ["Claim the deposit bonus on your first top-up for maximum value", "Fish shooting daily missions pay out bonus PKR — complete them before playing slots", "Login every day during holiday events — special event bonuses are significantly higher than daily standard rewards"],
     pros: ["200+ games including fish shooting", "10% deposit bonus", "Low data usage", "Holiday event promotions"],
     cons: ["58MB mid-large download", "No iOS app", "Wagering conditions on bonuses"],
@@ -2674,7 +2671,6 @@ export const games: Game[] = [
     installs: "6K+",
     image: "/screenshots/pak234-game.webp",
     screenshots: ["/screenshots/pak234-game.webp"],
-    downloadUrl: "https://d3n15ch2ggoctt.cloudfront.net/889/PAK234_1000.apk",
     tips: ["Rs. 577.7 referral is guaranteed per valid referral — focus on quality referrals who will deposit", "Spin the turntable every day without fail — it costs nothing and compounds over weeks", "Complete daily challenges before playing free games — they unlock bonus PKR that boosts your session"],
     pros: ["Rs. 577.7 precise referral bonus", "Daily turntable spin — free PKR", "Lucky draw variety", "Rotating daily challenges"],
     cons: ["Limited iOS availability", "41MB mid-range size", "Rewards depend on account verification level"],
@@ -2703,7 +2699,6 @@ export const games: Game[] = [
     installs: "5K+",
     image: "/screenshots/l83-game.webp",
     screenshots: ["/screenshots/l83-game.webp"],
-    downloadUrl: "https://l83.vip/",
     tips: ["Fishing games on L83 have HD rendering — play on a larger screen or tablet for best experience", "Roulette: stick to outside bets (red/black, odd/even) to preserve balance while learning", "Cashback is calculated on net losses — the more consistent your play, the more meaningful the cashback"],
     pros: ["HD graphics — best visual quality reviewed", "Roulette + fishing combo", "Cashback programme", "Fast verified withdrawals"],
     cons: ["55MB mid-large download", "Limited iOS availability", "Android primarily"],
@@ -2732,7 +2727,6 @@ export const games: Game[] = [
     installs: "5K+",
     image: "/screenshots/luck55-game.jpg",
     screenshots: ["/screenshots/luck55-game.jpg", "/screenshots/luck55-screenshot-1.jpg", "/screenshots/luck55-screenshot-2.jpg"],
-    downloadUrl: "https://abilityoknice.com/",
     tips: ["Start with the simplest mini games to learn the platform mechanics before moving to higher-stakes options", "EasyPaisa and JazzCash both work — use whichever has zero transfer fees for your bank", "Mini games have faster rounds than slots — set a session time limit to manage playtime"],
     pros: ["Simplest interface reviewed — ideal for beginners", "3 screenshots available for preview", "Quick mini game rounds", "Free download"],
     cons: ["53MB download", "Android only", "Smaller bonus offers than competitors"],
@@ -2787,7 +2781,6 @@ export const games: Game[] = [
     installs: "10K+",
     image: "https://naya.com.pk/wp-content/uploads/2025/08/HD77-game.webp",
     screenshots: ["https://naya.com.pk/wp-content/uploads/2025/08/HD77-game.webp"],
-    downloadUrl: "https://kkkpk.com/",
     tips: [
       "KKKPK is only 8.2MB — ideal to install on a second device or low-storage Android without worry",
       "The daily loss rebate is percentage-based — even a small session qualifies, so log in daily regardless",
@@ -2845,7 +2838,6 @@ export const games: Game[] = [
     installs: "2K+",
     image: "https://77pakgame.org/wp-content/uploads/2025/07/HM77-Game.webp",
     screenshots: ["https://77pakgame.org/wp-content/uploads/2025/07/HM77-Game.webp"],
-    downloadUrl: "https://hm77.com/",
     tips: [
       "HM77 is only 3.1MB — install it as a backup app alongside your main earning app with zero storage impact",
       "Complete daily tasks before playing free games — they unlock bonus PKR that supplements your session balance",
@@ -2904,7 +2896,6 @@ export const games: Game[] = [
     installs: "10K+",
     image: "https://apkmarkhor.net/wp-content/uploads/2025/09/2888pak-game.webp",
     screenshots: ["https://apkmarkhor.net/wp-content/uploads/2025/09/2888pak-game.webp"],
-    downloadUrl: "https://2888pak.com/",
     tips: [
       "Spin the lucky wheel every day before playing — it costs nothing and free coins reduce the amount you need to deposit",
       "Sports betting has better odds on popular Pakistani cricket matches — focus on markets you actually follow",
@@ -2964,7 +2955,6 @@ export const games: Game[] = [
     installs: "20K+",
     image: "https://slotspk.io/wp-content/uploads/2025/10/88EF-Game.webp",
     screenshots: ["https://slotspk.io/wp-content/uploads/2025/10/88EF-Game.webp"],
-    downloadUrl: "https://88ef.com/",
     tips: [
       "Live tournaments run on a schedule — check the tournament lobby when you first open the app to catch early-entry windows with lower competition",
       "Daily login bonus caps at Rs. 200 — log in every single day to maximise the streak multiplier",
@@ -3023,7 +3013,6 @@ export const games: Game[] = [
       "/screenshots/jjwin-game.webp",
       "/screenshots/jjwin-game-download-image-1.webp",
     ],
-    downloadUrl: "https://jwin.game/",
     tips: [
       "Claim the daily login bonus every day — the streak multiplier increases your payout after 7 consecutive days",
       "Use referral earnings to fund your first game session without depositing real money",
@@ -3080,7 +3069,6 @@ export const games: Game[] = [
       "https://bcgame-download.net/wp-content/uploads/2025/05/bc-game-logo-2.webp",
       "https://bcgame-download.net/wp-content/uploads/2025/04/bc-game-apk.webp",
     ],
-    downloadUrl: "https://bc.game/",
     tips: [
       "Start with the Crash game at 1.2x auto-cashout to build your balance safely before trying higher multipliers",
       "Daily rakeback rewards compound — the more you play each week, the higher your loyalty tier and cashback percentage",
@@ -3140,7 +3128,6 @@ export const games: Game[] = [
       "https://666-wgame.com.pk/wp-content/uploads/2025/12/image-57.webp",
       "https://666-wgame.com.pk/wp-content/uploads/2025/12/666W-game-feaured.webp",
     ],
-    downloadUrl: "https://666game.app/",
     tips: [
       "Complete all daily tasks before touching the main games — up to Rs. 200 free per day with zero risk",
       "Log in exactly at midnight to reset your daily streak and grab the bonus before anyone else",
@@ -3197,7 +3184,6 @@ export const games: Game[] = [
       "/screenshots/joypk777-game-download-1024x459.webp",
       "/screenshots/joypk777-1024x459.webp",
     ],
-    downloadUrl: "https://joypk777.com/",
     tips: [
       "Enter tournaments as early as possible — prize pools distribute to top 20 players and early entries face lower competition",
       "The daily spin resets at midnight — spin immediately after reset for the highest probability payouts in the pool",
@@ -3257,7 +3243,6 @@ export const games: Game[] = [
       "/screenshots/pk888-download-1024x754.webp",
       "/screenshots/rewards-in-pk8888-game-1024x754.webp",
     ],
-    downloadUrl: "https://8888game.app/",
     tips: [
       "Do the Lucky 8s daily challenge before anything else — Rs. 180 free per day adds up to Rs. 5,400 per month at zero cost",
       "Watch the Four 8s jackpot meter — it pays out more frequently when the pool has been building for several hours without a winner",
@@ -3315,7 +3300,6 @@ export const games: Game[] = [
       "/screenshots/download-16.jpeg",
       "/screenshots/screenshot-2026-04-07-at-1.12.36-am-1-604x1024.png",
     ],
-    downloadUrl: "https://pk365.game/",
     tips: [
       "Never miss a day on the 365-day calendar — missing a single day resets your streak and you lose the compounding reward",
       "Place sports predictions on match days with heavy public betting — the odds often shift favourably against the crowd",
