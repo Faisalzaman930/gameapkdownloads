@@ -2614,7 +2614,7 @@ export const games: Game[] = [
     installs: "8K+",
     image: "/screenshots/he777-game.jpg",
     screenshots: ["/screenshots/he777-game.jpg"],
-    downloadUrl: "https://he777.vip/?code=1692565",
+    downloadUrl: "https://he777.vip/?code=8356797",
     tips: ["Dragon VS Tiger has 50/50 odds — simplest game on the platform for beginners", "7up 7Down strategy: bet on 7 when the count is balanced for best statistical odds", "VIP upgrade bonuses are one-time — claim them immediately when you reach each tier"],
     pros: ["TeenPatti + Dragon VS Tiger — rare combo", "Jili slots provider", "Free chips on signup", "VIP weekly/monthly bonuses"],
     cons: ["65MB — large download", "Android only", "Agent programme requires active recruitment"],
