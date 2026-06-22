@@ -3406,6 +3406,7 @@ export const games: Game[] = [
     faqs: [{ q: "Is cx777 safe to download?", a: "Always download the cx777 APK from a trusted source and scan it before installing. Earning apps carry financial risk, so play responsibly." }, { q: "What is the minimum withdrawal in cx777?", a: "The minimum withdrawal is typically Rs. 100 via EasyPaisa or JazzCash." }],
     userReviews: [{ author: "Faisal Iqbal", rating: 5, body: "cx777 runs smoothly on my phone and the withdrawal process worked for me. Good variety of games.", date: "2026-06-15" }, { author: "Hina Shah", rating: 4, body: "Decent earning app. The bonuses help you get started. Withdrawing to JazzCash was straightforward.", date: "2026-06-15" }],
     installs: "50K+", image: "/screenshots/cx777-game-icon.webp", screenshots: ["/screenshots/cx777-game-1.webp"],
+    downloadUrl: "https://777cx.co/?dl=6wwm56",
     expertVerdict: "cx777 is a recently updated earning app on our radar. In early hands-on checks the app installed cleanly and core games loaded without issues. As with all real-money apps, treat it as entertainment, never deposit more than you can afford to lose, and verify withdrawals with small amounts first. We refresh this review as the app matures.", reviewedBy: "Muhammad Faisal — Senior APK Reviewer, GameAPKDownloads.pk", reviewedAt: "2026-06-15", bonus: "Welcome Sign-Up Bonus", minWithdraw: "Rs. 100", publishedAt: "2026-06-15", updatedAt: "2026-06-15", emoji: "🎰",
   },
   {
