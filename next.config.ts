@@ -2,11 +2,11 @@ import type { NextConfig } from "next";
 
 const csp = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline'",
+  "script-src 'self' 'unsafe-inline' https://www.googletagmanager.com",
   "style-src 'self' 'unsafe-inline'",
-  "img-src 'self' data: https://gameistan.com.pk https://777gameapk.com.pk https://s3.cdnpk688.com https://apkgame.com.pk https://naya.com.pk https://77pakgame.org https://apkmarkhor.net https://slotspk.io",
+  "img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://gameistan.com.pk https://777gameapk.com.pk https://s3.cdnpk688.com https://apkgame.com.pk https://naya.com.pk https://77pakgame.org https://apkmarkhor.net https://slotspk.io",
   "font-src 'self' https://fonts.gstatic.com",
-  "connect-src 'self'",
+  "connect-src 'self' https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com",
   "frame-ancestors 'none'",
 ].join("; ");
 
