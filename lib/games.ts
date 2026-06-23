@@ -36,6 +36,7 @@ export const games: Game[] = [
   {
     slug: "pk-177",
     name: "PK 177",
+    downloadUrl: "https://www.pk177.win/?dl=3pmppt",
     tagline: "Pakistan's Most Popular Real Cash Earning Game 2026",
     description:
       "PK 177 is one of the top-rated real money earning apps in Pakistan. Play casino-style mini games, refer friends, and withdraw via EasyPaisa or JazzCash instantly.",
