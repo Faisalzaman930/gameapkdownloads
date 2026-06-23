@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -19,19 +20,41 @@ export interface GameCard {
   q: string;
 }
 
+// Primary bucket = text before the first "/" (e.g. "Slots / Casino" -> "Slots").
+const primary = (category: string) => category.split("/")[0].trim();
+
 export default function GamesBrowser({ games }: { games: GameCard[] }) {
-  const [query, setQuery] = useState("");
+  const searchParams = useSearchParams();
+  const [query, setQuery] = useState(() => searchParams.get("q") ?? "");
+  const [cat, setCat] = useState("All");
+
+  // Build category chips, most-common first.
+  const categories = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const g of games) {
+      const p = primary(g.category);
+      counts.set(p, (counts.get(p) ?? 0) + 1);
+    }
+    return [
+      "All",
+      ...[...counts.entries()].sort((a, b) => b[1] - a[1]).map(([c]) => c),
+    ];
+  }, [games]);
 
   const filtered = useMemo(() => {
     const tokens = query.toLowerCase().trim().split(/\s+/).filter(Boolean);
-    if (tokens.length === 0) return games;
-    return games.filter((g) => tokens.every((t) => g.q.includes(t)));
-  }, [query, games]);
+    return games.filter((g) => {
+      if (cat !== "All" && primary(g.category) !== cat) return false;
+      return tokens.every((t) => g.q.includes(t));
+    });
+  }, [query, cat, games]);
+
+  const active = query.trim() !== "" || cat !== "All";
 
   return (
     <>
       {/* Search */}
-      <div className="mb-8">
+      <div className="mb-5">
         <div className="relative max-w-xl">
           <span className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-gray-500">
             🔍
@@ -56,22 +79,47 @@ export default function GamesBrowser({ games }: { games: GameCard[] }) {
             </button>
           )}
         </div>
-        <p className="mt-2 text-xs text-gray-500" aria-live="polite">
-          {query
-            ? `${filtered.length} result${filtered.length === 1 ? "" : "s"} for “${query}”`
-            : `${games.length} games listed. Community reviewed and updated regularly.`}
-        </p>
       </div>
+
+      {/* Category chips */}
+      <div className="mb-5 flex flex-wrap gap-2">
+        {categories.map((c) => (
+          <button
+            key={c}
+            type="button"
+            onClick={() => setCat(c)}
+            aria-pressed={cat === c}
+            className={`rounded-full border px-3 py-1 text-xs font-semibold transition-colors ${
+              cat === c
+                ? "border-violet-500/60 bg-violet-500/20 text-violet-300"
+                : "border-gray-800 bg-gray-900 text-gray-400 hover:border-gray-700 hover:text-gray-200"
+            }`}
+          >
+            {c}
+          </button>
+        ))}
+      </div>
+
+      <p className="mb-6 text-xs text-gray-500" aria-live="polite">
+        {active
+          ? `${filtered.length} result${filtered.length === 1 ? "" : "s"}${
+              query.trim() ? ` for “${query.trim()}”` : ""
+            }${cat !== "All" ? ` in ${cat}` : ""}`
+          : `${games.length} games listed. Community reviewed and updated regularly.`}
+      </p>
 
       {filtered.length === 0 ? (
         <div className="rounded-2xl border border-gray-800 bg-gray-900 py-16 text-center">
-          <p className="text-gray-400">No games match “{query}”.</p>
+          <p className="text-gray-400">No games match your search.</p>
           <button
             type="button"
-            onClick={() => setQuery("")}
+            onClick={() => {
+              setQuery("");
+              setCat("All");
+            }}
             className="mt-3 text-sm font-semibold text-violet-400 hover:underline"
           >
-            Clear search
+            Reset filters
           </button>
         </div>
       ) : (
@@ -96,7 +144,7 @@ export default function GamesBrowser({ games }: { games: GameCard[] }) {
                   </h2>
                   <p className="text-xs text-gray-500">{game.category}</p>
                 </div>
-                {!query && game.isNew && (
+                {!active && game.isNew && (
                   <span className="ml-auto text-xs bg-violet-500/20 text-violet-400 border border-violet-500/30 px-1.5 py-0.5 rounded-full">
                     NEW
                   </span>

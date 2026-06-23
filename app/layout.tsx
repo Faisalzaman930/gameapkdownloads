@@ -82,6 +82,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </Link>
               ))}
             </nav>
+            <form action="/games" role="search" className="relative hidden sm:flex items-center flex-1 max-w-[14rem] mx-4">
+              <span className="pointer-events-none absolute left-3 text-sm text-gray-500">🔍</span>
+              <input
+                type="search"
+                name="q"
+                placeholder="Search games…"
+                aria-label="Search games"
+                autoComplete="off"
+                className="w-full rounded-full border border-gray-800 bg-gray-900 py-1.5 pl-9 pr-3 text-sm text-white placeholder-gray-500 outline-none transition-colors focus:border-violet-500/60"
+              />
+            </form>
             <div className="flex items-center gap-2">
               <ThemeToggle />
               <Link

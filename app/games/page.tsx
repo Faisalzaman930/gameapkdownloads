@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Suspense } from "react";
 import { games } from "@/lib/games";
 import GamesBrowser, { type GameCard } from "./GamesBrowser";
 
@@ -43,7 +44,9 @@ export default function GamesPage() {
         </h1>
       </div>
 
-      <GamesBrowser games={cards} />
+      <Suspense fallback={null}>
+        <GamesBrowser games={cards} />
+      </Suspense>
     </div>
   );
 }
