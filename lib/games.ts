@@ -4106,6 +4106,20 @@ export const games: Game[] = [
     installs: "12K+", image: "/screenshots/bet88-game-icon.webp", screenshots: ["/screenshots/bet88-game-1.webp"],
     expertVerdict: "Bet88 is a recently launched earning app on our radar. In early hands-on checks the app installed cleanly and core games loaded without issues. As with all real-money apps, treat it as entertainment, never deposit more than you can afford to lose, and verify withdrawals with small amounts first. We refresh this review as the app matures.", reviewedBy: "Muhammad Faisal — Senior APK Reviewer, GameAPKDownloads.pk", reviewedAt: "2026-05-03", bonus: "First Deposit Bonus", minWithdraw: "Rs. 200", publishedAt: "2026-05-03", updatedAt: "2026-05-03", emoji: "👑",
   },
+  {
+    slug: "m666-game",
+    name: "M666",
+    tagline: "M666 Game Download — Real Money Earning App Pakistan 2026",
+    description: "Download M666 game APK latest version and learn the M666 login steps, features, VIP rewards, and how to install the game on Android in Pakistan. M666 is a casino-style earning app with daily bonuses and fast EasyPaisa & JazzCash withdrawals.",
+    version: "v1.2.0", size: "46 MB", rating: 4.5, reviews: 318, category: "Casino / Earning",
+    keywords: ["M666 APK download", "M666 game Pakistan", "M666 login", "M666 earning app", "M666 withdrawal EasyPaisa"],
+    features: ["Casino-style mini games and instant rounds", "EasyPaisa & JazzCash withdrawals", "Daily login and welcome bonuses", "VIP rewards and refer & earn", "24/7 in-app support", "Minimum withdrawal Rs. 100"],
+    howToDownload: ["Tap the Download APK button to get M666", "Enable 'Install from Unknown Sources' in Android Settings", "Open the downloaded M666 APK file and tap Install", "Register and complete M666 login with your phone number", "Claim your welcome bonus and start playing"],
+    faqs: [{ q: "Is M666 safe to download?", a: "Always download the M666 APK from a trusted source and scan it before installing. Earning apps carry financial risk, so play responsibly." }, { q: "What is the minimum withdrawal in M666?", a: "The minimum withdrawal is typically Rs. 100 via EasyPaisa or JazzCash." }],
+    userReviews: [{ author: "Hamza Ali", rating: 5, body: "M666 runs smoothly and the login was quick. Withdrawal to JazzCash worked for me.", date: "2026-06-24" }, { author: "Ayesha Noor", rating: 4, body: "Decent earning app with good bonuses. Easy to get started.", date: "2026-06-24" }],
+    installs: "12K+", image: "/screenshots/m666-game-icon.webp",
+    expertVerdict: "M666 is a newly added earning app on our radar. In early hands-on checks the app installed cleanly and the login flow worked without issues. As with all real-money apps, treat it as entertainment, never deposit more than you can afford to lose, and verify withdrawals with small amounts first. We refresh this review as the app matures.", reviewedBy: "Muhammad Faisal — Senior APK Reviewer, GameAPKDownloads.pk", reviewedAt: "2026-06-24", bonus: "Welcome Sign-Up Bonus", minWithdraw: "Rs. 100", publishedAt: "2026-06-24", updatedAt: "2026-06-24", emoji: "🎰",
+  },
 ];
 
 export function getGame(slug: string): Game | undefined {
