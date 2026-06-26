@@ -2625,6 +2625,7 @@ export const games: Game[] = [
   {
     slug: "slots786-game",
     name: "Slots786",
+    downloadUrl: "https://slots786.vip/?code=3109053",
     tagline: "200+ Slots, Poker & Fish Shooting Real Money App Pakistan 2026",
     description: "Slots786 is a mobile-first casino app with 200+ games including slots, poker, fish shooting, and live casino — built specifically for Pakistani players. 10% deposit bonus, daily login rewards, and a referral programme with quick JazzCash and EasyPaisa withdrawals.",
     version: "v1.0.0", size: "58.45 MB", rating: 4.4, reviews: 495,
