@@ -685,7 +685,7 @@ export const games: Game[] = [
   {
     slug: "p999",
     name: "P999",
-    tagline: "P999 Game Download — Top Rummy & Color Prediction App Pakistan",
+    tagline: "Top Rummy & Color Prediction App Pakistan",
     description:
       "P999 is a veteran of the Pakistani earning app market, known for its rock-solid Rummy tables and accurate color prediction game with the highest payout rates.",
     version: "v3.0.0",
@@ -758,7 +758,7 @@ export const games: Game[] = [
   {
     slug: "666d-game",
     name: "666D Game",
-    tagline: "666D Game Download — Real Money Earning App Updated 2026",
+    tagline: "Real Money Earning App Updated 2026",
     description: "666D is a brand-new earning platform featuring high-speed color prediction, slots, and mini casino games with instant EasyPaisa withdrawals.",
     version: "v1.0.2", size: "39 MB", rating: 4.4, reviews: 280, category: "Casino / Color Prediction",
     keywords: ["666D game APK download", "666D earning app Pakistan", "666D color prediction"],
@@ -797,7 +797,7 @@ export const games: Game[] = [
   {
     slug: "ct999-game",
     name: "CT999",
-    tagline: "CT999 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "CT999 delivers a premium earning experience with triple-digit jackpots, live Rummy tables, and one of the highest referral commissions in Pakistan.",
     version: "v2.0.0", size: "47 MB", rating: 4.6, reviews: 520, category: "Rummy / Casino",
     keywords: ["CT999 APK download", "CT999 Pakistan", "CT999 Rummy game", "CT999 real money"],
@@ -810,7 +810,7 @@ export const games: Game[] = [
   {
     slug: "pk888-game",
     name: "PK888",
-    tagline: "PK888 Game Download — New Earning App for Android Pakistan 2026",
+    tagline: "New Earning App for Android Pakistan 2026",
     description: "PK888 is a feature-rich earning app built for Pakistani players, combining slots, Andar Bahar, and color prediction with a sleek TikTok-style feed of winners.",
     version: "v1.3.0", size: "46 MB", rating: 4.5, reviews: 410, category: "Casino / Multi-game",
     keywords: ["PK888 APK download", "PK888 game Pakistan", "PK888 earning app"],
@@ -849,7 +849,7 @@ export const games: Game[] = [
   {
     slug: "lg777-game",
     name: "LG777",
-    tagline: "LG777 Game Download — Lucky 777 Slots Earning App Pakistan",
+    tagline: "Lucky 777 Slots Earning App Pakistan",
     description: "LG777 brings the classic lucky 777 experience with a modern Pakistani twist — localized payment methods, Urdu support, and huge daily jackpots.",
     version: "v1.4.0", size: "38 MB", rating: 4.4, reviews: 390, category: "Slots",
     keywords: ["LG777 APK download", "LG777 slots Pakistan", "LG777 real money"],
@@ -3199,7 +3199,7 @@ export const games: Game[] = [
   {
     slug: "78986-game",
     name: "78986",
-    tagline: "78986 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "78986 Game is a new online earning platform that is quickly gaining attention among smartphone users in Pakistan. It is a color prediction and lottery game where you place a small bet and guess the outcome of each round.",
     version: "v2.0.2", size: "53 MB", rating: 4.6, reviews: 217, category: "Casino / Color Prediction",
     keywords: ["78986 APK download", "78986 game Pakistan", "78986 earning app", "78986 withdrawal EasyPaisa"],
@@ -3213,7 +3213,7 @@ export const games: Game[] = [
   {
     slug: "hermes-game",
     name: "Hermes",
-    tagline: "Hermes Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "hermes Pakistan offers slots, Teen Patti, and casino games with a welcome bonus of up to 9,999 PKR.",
     version: "v1.9.2", size: "68 MB", rating: 4.5, reviews: 432, category: "Slots / Casino",
     keywords: ["Hermes APK download", "Hermes game Pakistan", "Hermes earning app", "Hermes withdrawal EasyPaisa"],
@@ -3227,7 +3227,7 @@ export const games: Game[] = [
   {
     slug: "me5-game",
     name: "ME5",
-    tagline: "ME5 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Me5 Game Pakistan – play color prediction and earn real cash rewards. Get the latest guide and download link on .",
     version: "v3.8.8", size: "46 MB", rating: 4.4, reviews: 887, category: "Casino / Color Prediction",
     keywords: ["ME5 APK download", "ME5 game Pakistan", "ME5 earning app", "ME5 withdrawal EasyPaisa"],
@@ -3241,7 +3241,7 @@ export const games: Game[] = [
   {
     slug: "bv999-game",
     name: "BV999",
-    tagline: "BV999 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "BV999 Game APK is a fresh online gaming platform blending entertainment and real cash rewards.",
     version: "v2.0.2", size: "43 MB", rating: 4.6, reviews: 577, category: "Casino / Earning",
     keywords: ["BV999 APK download", "BV999 game Pakistan", "BV999 earning app", "BV999 withdrawal EasyPaisa"],
@@ -3255,7 +3255,7 @@ export const games: Game[] = [
   {
     slug: "bt111-game",
     name: "bt111",
-    tagline: "bt111 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Discover bt111 Game Pakistan's latest color prediction and lottery app. Learn how it works, features, registration steps, pros, cons, and more.",
     version: "v1.4.6", size: "45 MB", rating: 4.2, reviews: 801, category: "Casino / Color Prediction",
     keywords: ["bt111 APK download", "bt111 game Pakistan", "bt111 earning app", "bt111 withdrawal EasyPaisa"],
@@ -3269,7 +3269,7 @@ export const games: Game[] = [
   {
     slug: "92bar-game",
     name: "92bar",
-    tagline: "92bar Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Learn about 92bar Game, a new Pakistan lottery app for color prediction and real money earning. Features, registration, pros, cons, and safety tips.",
     version: "v3.5.7", size: "52 MB", rating: 4.7, reviews: 821, category: "Casino / Color Prediction",
     keywords: ["92bar APK download", "92bar game Pakistan", "92bar earning app", "92bar withdrawal EasyPaisa"],
@@ -3283,7 +3283,7 @@ export const games: Game[] = [
   {
     slug: "cx777-game",
     name: "cx777",
-    tagline: "cx777 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Discover cx777 Game, Pakistan’s new color prediction app. Learn how it works, features, pros, cons, and how to start safely today on .",
     version: "v1.3.5", size: "42 MB", rating: 4.5, reviews: 219, category: "Casino / Color Prediction",
     keywords: ["cx777 APK download", "cx777 game Pakistan", "cx777 earning app", "cx777 withdrawal EasyPaisa"],
@@ -3298,7 +3298,7 @@ export const games: Game[] = [
   {
     slug: "44pk-game",
     name: "44PK",
-    tagline: "44PK Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Discover 44pk Game Download with our comprehensive guide covering features, installation steps, gameplay strategies, and rewards. Start your gaming journey today!",
     version: "v1.0.1", size: "62 MB", rating: 4.2, reviews: 768, category: "Casino / Earning",
     keywords: ["44PK APK download", "44PK game Pakistan", "44PK earning app", "44PK withdrawal EasyPaisa"],
@@ -3312,7 +3312,7 @@ export const games: Game[] = [
   {
     slug: "wg88-game",
     name: "WG88",
-    tagline: "WG88 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Complete wg88 Game Download guide covering installation, features, gameplay tips, and rewards. Everything you need to start your mobile gaming adventure!",
     version: "v1.1.2", size: "53 MB", rating: 4.5, reviews: 759, category: "Casino / Earning",
     keywords: ["WG88 APK download", "WG88 game Pakistan", "WG88 earning app", "WG88 withdrawal EasyPaisa"],
@@ -3326,7 +3326,7 @@ export const games: Game[] = [
   {
     slug: "ty777-game",
     name: "TY777",
-    tagline: "TY777 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "TY777 Game Download guide for Android & iOS. Learn features, gameplay tips, withdrawal process, and installation steps for this exciting mobile gaming experience.",
     version: "v2.0.2", size: "59 MB", rating: 4.6, reviews: 667, category: "Casino / Earning",
     keywords: ["TY777 APK download", "TY777 game Pakistan", "TY777 earning app", "TY777 withdrawal EasyPaisa"],
@@ -3340,7 +3340,7 @@ export const games: Game[] = [
   {
     slug: "z78-game",
     name: "Z78",
-    tagline: "Z78 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Z78 Game APK download guide for Pakistan. Learn registration, login, payments, rewards, features, and security tips in one place.",
     version: "v3.4.4", size: "52 MB", rating: 4.4, reviews: 893, category: "Casino / Earning",
     keywords: ["Z78 APK download", "Z78 game Pakistan", "Z78 earning app", "Z78 withdrawal EasyPaisa"],
@@ -3354,7 +3354,7 @@ export const games: Game[] = [
   {
     slug: "977pak-game",
     name: "977Pak",
-    tagline: "977Pak Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "977pak Game is Pakistan's growing color prediction and lottery app. Supports Easypaisa and JazzCash. Read our honest review before downloading.",
     version: "v1.5.8", size: "40 MB", rating: 4.5, reviews: 600, category: "Casino / Color Prediction",
     keywords: ["977Pak APK download", "977Pak game Pakistan", "977Pak earning app", "977Pak withdrawal EasyPaisa"],
@@ -3368,7 +3368,7 @@ export const games: Game[] = [
   {
     slug: "9999win-game",
     name: "9999win",
-    tagline: "9999win Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "9999win Game is a rapidly growing online earning platform designed specifically for Pakistani users in 2026.",
     version: "v1.7.1", size: "49 MB", rating: 4.5, reviews: 450, category: "Casino / Earning",
     keywords: ["9999win APK download", "9999win game Pakistan", "9999win earning app", "9999win withdrawal EasyPaisa"],
@@ -3382,7 +3382,7 @@ export const games: Game[] = [
   {
     slug: "cd22-game",
     name: "CD22",
-    tagline: "CD22 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "CD22 Game APK Download Pakistan. Play popular casino games and claim bonuses up to 10,000 PKR.",
     version: "v2.3.4", size: "34 MB", rating: 4.3, reviews: 481, category: "Casino / Earning",
     keywords: ["CD22 APK download", "CD22 game Pakistan", "CD22 earning app", "CD22 withdrawal EasyPaisa"],
@@ -3396,7 +3396,7 @@ export const games: Game[] = [
   {
     slug: "7987-game",
     name: "7987",
-    tagline: "7987 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "7987 game is a new earning app offering slot games and color prediction in Pakistan. Learn registration, gameplay, withdrawal methods, and safety guidelines here.",
     version: "v3.5.6", size: "40 MB", rating: 4.7, reviews: 413, category: "Casino / Color Prediction",
     keywords: ["7987 APK download", "7987 game Pakistan", "7987 earning app", "7987 withdrawal EasyPaisa"],
@@ -3410,7 +3410,7 @@ export const games: Game[] = [
   {
     slug: "666ep-game",
     name: "666EP",
-    tagline: "666EP Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "666EP Game APK download guide for Pakistan. Learn registration, login, payments, rewards, features, and security tips in one place.",
     version: "v2.6.8", size: "49 MB", rating: 4.6, reviews: 583, category: "Casino / Earning",
     keywords: ["666EP APK download", "666EP game Pakistan", "666EP earning app", "666EP withdrawal EasyPaisa"],
@@ -3424,7 +3424,7 @@ export const games: Game[] = [
   {
     slug: "5555bet-game",
     name: "5555bet",
-    tagline: "5555bet Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Discover 5555bet Game — a Pakistan-based color prediction and lottery app. Learn how it works, registration steps, games, bonuses, safety tips, and much more.",
     version: "v3.0.4", size: "45 MB", rating: 4.4, reviews: 914, category: "Casino / Color Prediction",
     keywords: ["5555bet APK download", "5555bet game Pakistan", "5555bet earning app", "5555bet withdrawal EasyPaisa"],
@@ -3438,7 +3438,7 @@ export const games: Game[] = [
   {
     slug: "rs778-game",
     name: "RS778",
-    tagline: "RS778 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Discover rs778 Game, a trusted lottery app and earning game in Pakistan. Play color prediction, PG slots, and more to earn money online safely and easily.",
     version: "v2.9.1", size: "45 MB", rating: 4.3, reviews: 616, category: "Casino / Color Prediction",
     keywords: ["RS778 APK download", "RS778 game Pakistan", "RS778 earning app", "RS778 withdrawal EasyPaisa"],
@@ -3452,7 +3452,7 @@ export const games: Game[] = [
   {
     slug: "988win-game",
     name: "988Win",
-    tagline: "988Win Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download 988Win Game APK latest version 2026. Supports Easypaisa & JazzCash withdrawals. Read our honest Pakistan review before installing",
     version: "v2.6.9", size: "66 MB", rating: 4.6, reviews: 811, category: "Casino / Earning",
     keywords: ["988Win APK download", "988Win game Pakistan", "988Win earning app", "988Win withdrawal EasyPaisa"],
@@ -3466,7 +3466,7 @@ export const games: Game[] = [
   {
     slug: "388win-game",
     name: "388Win",
-    tagline: "388Win Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "388Win is a real-money earning app for Pakistani Android players, offering casino-style mini games, daily bonuses, and fast EasyPaisa & JazzCash withdrawals. Download the latest 388Win APK and start playing.",
     version: "v2.4.7", size: "61 MB", rating: 4.6, reviews: 769, category: "Casino / Earning",
     keywords: ["388Win APK download", "388Win game Pakistan", "388Win earning app", "388Win withdrawal EasyPaisa"],
@@ -3480,7 +3480,7 @@ export const games: Game[] = [
   {
     slug: "at77-game",
     name: "At77",
-    tagline: "At77 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Learn how at77 Game works, its features, safety, pros, cons, and earning methods in Pakistan.",
     version: "v2.8.9", size: "55 MB", rating: 4.6, reviews: 145, category: "Casino / Earning",
     keywords: ["At77 APK download", "At77 game Pakistan", "At77 earning app", "At77 withdrawal EasyPaisa"],
@@ -3494,7 +3494,7 @@ export const games: Game[] = [
   {
     slug: "y999-game",
     name: "Y999",
-    tagline: "Y999 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download Y999 Game APK 2025 and start earning real money in Pakistan! Easy install, safe withdrawal with JazzCash/EasyPaisa, referral bonus & more.",
     version: "v3.2.3", size: "48 MB", rating: 4.4, reviews: 680, category: "Casino / Earning",
     keywords: ["Y999 APK download", "Y999 game Pakistan", "Y999 earning app", "Y999 withdrawal EasyPaisa"],
@@ -3508,7 +3508,7 @@ export const games: Game[] = [
   {
     slug: "jj55-game",
     name: "jj55",
-    tagline: "jj55 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Discover how jj55 Game helps Pakistanis earn real money daily. Complete guide covering features, bonuses, withdrawal process & proven earning strategies.",
     version: "v3.7.8", size: "39 MB", rating: 4.7, reviews: 314, category: "Casino / Earning",
     keywords: ["jj55 APK download", "jj55 game Pakistan", "jj55 earning app", "jj55 withdrawal EasyPaisa"],
@@ -3522,7 +3522,7 @@ export const games: Game[] = [
   {
     slug: "slotstake-game",
     name: "Slotstake",
-    tagline: "Slotstake Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Discover slotstake Game — Pakistan's trending color prediction and lottery app. Learn how it works, how to register, and whether it's worth your time.",
     version: "v3.5.1", size: "59 MB", rating: 4.7, reviews: 242, category: "Casino / Color Prediction",
     keywords: ["Slotstake APK download", "Slotstake game Pakistan", "Slotstake earning app", "Slotstake withdrawal EasyPaisa"],
@@ -3536,7 +3536,7 @@ export const games: Game[] = [
   {
     slug: "33pak-game",
     name: "33pak",
-    tagline: "33pak Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Discover everything about 33pak game - download guide, gameplay tips, features, and winning strategies. Complete 2026 review for mobile gamers",
     version: "v3.0.2", size: "67 MB", rating: 4.4, reviews: 836, category: "Casino / Earning",
     keywords: ["33pak APK download", "33pak game Pakistan", "33pak earning app", "33pak withdrawal EasyPaisa"],
@@ -3550,7 +3550,7 @@ export const games: Game[] = [
   {
     slug: "s98-game",
     name: "S98",
-    tagline: "S98 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download S98 Game APK in Pakistan 2026. Get login guide, welcome bonus details, gameplay features, earning methods, and full S98 Casino review",
     version: "v3.1.1", size: "56 MB", rating: 4.7, reviews: 860, category: "Casino / Earning",
     keywords: ["S98 APK download", "S98 game Pakistan", "S98 earning app", "S98 withdrawal EasyPaisa"],
@@ -3564,7 +3564,7 @@ export const games: Game[] = [
   {
     slug: "uk777-game",
     name: "UK777",
-    tagline: "UK777 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Discover everything about uk777 Game Download including installation steps, features, gameplay tips, and rewards. Get your complete guide to this exciting mobile gaming experience today!",
     version: "v2.5.7", size: "65 MB", rating: 4.3, reviews: 562, category: "Casino / Earning",
     keywords: ["UK777 APK download", "UK777 game Pakistan", "UK777 earning app", "UK777 withdrawal EasyPaisa"],
@@ -3578,7 +3578,7 @@ export const games: Game[] = [
   {
     slug: "xx555-game",
     name: "XX555",
-    tagline: "XX555 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Complete guide to xx555 Game - Pakistan's newest earning app. Learn registration, gameplay, bonuses, and how to make money online through color prediction games.",
     version: "v1.0.2", size: "56 MB", rating: 4.2, reviews: 627, category: "Casino / Color Prediction",
     keywords: ["XX555 APK download", "XX555 game Pakistan", "XX555 earning app", "XX555 withdrawal EasyPaisa"],
@@ -3592,7 +3592,7 @@ export const games: Game[] = [
   {
     slug: "ep92-game",
     name: "EP92",
-    tagline: "EP92 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "ep92 Game APK Download 2026 in Pakistan. Get 992 PKR signup bonus, enjoy secure gameplay, fast withdrawals, multiple games, and complete download guide",
     version: "v1.6.7", size: "59 MB", rating: 4.2, reviews: 654, category: "Casino / Earning",
     keywords: ["EP92 APK download", "EP92 game Pakistan", "EP92 earning app", "EP92 withdrawal EasyPaisa"],
@@ -3606,7 +3606,7 @@ export const games: Game[] = [
   {
     slug: "vk999-game",
     name: "vk999",
-    tagline: "vk999 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Discover vk999 Game, Earn money online with daily bonuses, 30% cashback, Rs600 referral rewards, and instant withdrawals.",
     version: "v3.2.4", size: "57 MB", rating: 4.4, reviews: 308, category: "Casino / Earning",
     keywords: ["vk999 APK download", "vk999 game Pakistan", "vk999 earning app", "vk999 withdrawal EasyPaisa"],
@@ -3620,7 +3620,7 @@ export const games: Game[] = [
   {
     slug: "pkcasino-game",
     name: "PkCasino",
-    tagline: "PkCasino Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "PkCasino is a real-money earning app for Pakistani Android players, offering casino-style mini games, daily bonuses, and fast EasyPaisa & JazzCash withdrawals. Download the latest PkCasino APK and start playing.",
     version: "v3.8.3", size: "57 MB", rating: 4.4, reviews: 608, category: "Casino / Color Prediction",
     keywords: ["PkCasino APK download", "PkCasino game Pakistan", "PkCasino earning app", "PkCasino withdrawal EasyPaisa"],
@@ -3634,7 +3634,7 @@ export const games: Game[] = [
   {
     slug: "bet55-game",
     name: "bet55",
-    tagline: "bet55 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Discover bet55 Game, Pakistan's new lottery and color prediction app. Learn how it works, how to register, and how to withdraw via Easypaisa & JazzCash",
     version: "v1.1.3", size: "57 MB", rating: 4.5, reviews: 567, category: "Casino / Color Prediction",
     keywords: ["bet55 APK download", "bet55 game Pakistan", "bet55 earning app", "bet55 withdrawal EasyPaisa"],
@@ -3648,7 +3648,7 @@ export const games: Game[] = [
   {
     slug: "as8-game",
     name: "As8",
-    tagline: "As8 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download aS8 Game APK latest version 2026. Supports Easypaisa & JazzCash withdrawals. Read our honest Pakistan review before installing.",
     version: "v2.9.9", size: "61 MB", rating: 4.3, reviews: 397, category: "Casino / Earning",
     keywords: ["As8 APK download", "As8 game Pakistan", "As8 earning app", "As8 withdrawal EasyPaisa"],
@@ -3662,7 +3662,7 @@ export const games: Game[] = [
   {
     slug: "k6-game",
     name: "K6",
-    tagline: "K6 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download K6 game APK in Pakistan. Learn K6 Club Game login steps, features, gameplay types, bonuses and safe installation guide for Android.",
     version: "v1.7.6", size: "64 MB", rating: 4.5, reviews: 276, category: "Casino / Earning",
     keywords: ["K6 APK download", "K6 game Pakistan", "K6 earning app", "K6 withdrawal EasyPaisa"],
@@ -3676,7 +3676,7 @@ export const games: Game[] = [
   {
     slug: "m999-game",
     name: "M999",
-    tagline: "M999 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download M999 Game APK latest version and learn M999 login steps, VIP rewards, and how to install the M 999 game on Android in Pakistan.",
     version: "v3.8.9", size: "38 MB", rating: 4.4, reviews: 596, category: "Casino / Earning",
     keywords: ["M999 APK download", "M999 game Pakistan", "M999 earning app", "M999 withdrawal EasyPaisa"],
@@ -3690,7 +3690,7 @@ export const games: Game[] = [
   {
     slug: "iv7-game",
     name: "IV7",
-    tagline: "IV7 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Explore IV7 Game in Pakistan. Learn how to register an account, log in, download the app, manage payments, make deposits, request withdrawals, and access platform features easily.",
     version: "v3.4.4", size: "61 MB", rating: 4.4, reviews: 212, category: "Casino / Earning",
     keywords: ["IV7 APK download", "IV7 game Pakistan", "IV7 earning app", "IV7 withdrawal EasyPaisa"],
@@ -3704,7 +3704,7 @@ export const games: Game[] = [
   {
     slug: "vk99-game",
     name: "VK99",
-    tagline: "VK99 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Discover VK99 Game in Pakistan. Learn how to register an account, log in, download the app, make deposits, request withdrawals, and explore key platform features in this complete guide.",
     version: "v3.5.6", size: "60 MB", rating: 4.7, reviews: 803, category: "Casino / Earning",
     keywords: ["VK99 APK download", "VK99 game Pakistan", "VK99 earning app", "VK99 withdrawal EasyPaisa"],
@@ -3718,7 +3718,7 @@ export const games: Game[] = [
   {
     slug: "gn55-game",
     name: "GN55",
-    tagline: "GN55 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Learn everything about GN55 Game including download process, login steps, registration, payments, features, and FAQs in this complete guide for Pakistani users.",
     version: "v2.8.9", size: "51 MB", rating: 4.6, reviews: 646, category: "Casino / Earning",
     keywords: ["GN55 APK download", "GN55 game Pakistan", "GN55 earning app", "GN55 withdrawal EasyPaisa"],
@@ -3732,7 +3732,7 @@ export const games: Game[] = [
   {
     slug: "n99-game",
     name: "N99",
-    tagline: "N99 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Learn everything about N99 Game including download process, registration, login steps, payments, features, and FAQs in this complete guide for Pakistani users.",
     version: "v1.5.5", size: "67 MB", rating: 4.5, reviews: 834, category: "Casino / Earning",
     keywords: ["N99 APK download", "N99 game Pakistan", "N99 earning app", "N99 withdrawal EasyPaisa"],
@@ -3746,7 +3746,7 @@ export const games: Game[] = [
   {
     slug: "718sp-game",
     name: "718SP",
-    tagline: "718SP Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Learn everything about 718SP Game including download process, registration, login steps, payments, features, and FAQs in this complete guide for Pakistani users.",
     version: "v1.1.3", size: "63 MB", rating: 4.5, reviews: 708, category: "Casino / Earning",
     keywords: ["718SP APK download", "718SP game Pakistan", "718SP earning app", "718SP withdrawal EasyPaisa"],
@@ -3760,7 +3760,7 @@ export const games: Game[] = [
   {
     slug: "jc92-game",
     name: "JC92",
-    tagline: "JC92 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Learn everything about JC92 Game including download process, registration, login steps, payments, features, and FAQs in this complete guide for Pakistani users.",
     version: "v1.7.8", size: "64 MB", rating: 4.5, reviews: 585, category: "Casino / Earning",
     keywords: ["JC92 APK download", "JC92 game Pakistan", "JC92 earning app", "JC92 withdrawal EasyPaisa"],
@@ -3774,7 +3774,7 @@ export const games: Game[] = [
   {
     slug: "gg88-game",
     name: "GG88",
-    tagline: "GG88 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download GG88 game APK latest version, explore features, bonuses, quick login steps, and install the app easily on Android in Pakistan today.",
     version: "v3.9.0", size: "52 MB", rating: 4.7, reviews: 647, category: "Casino / Earning",
     keywords: ["GG88 APK download", "GG88 game Pakistan", "GG88 earning app", "GG88 withdrawal EasyPaisa"],
@@ -3788,7 +3788,7 @@ export const games: Game[] = [
   {
     slug: "g555-game",
     name: "G555",
-    tagline: "G555 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download G555 game APK latest version, check updated features, quick login steps, smooth performance, and easy install guide for Android users in Pakistan.",
     version: "v3.8.9", size: "36 MB", rating: 4.4, reviews: 446, category: "Casino / Earning",
     keywords: ["G555 APK download", "G555 game Pakistan", "G555 earning app", "G555 withdrawal EasyPaisa"],
@@ -3802,7 +3802,7 @@ export const games: Game[] = [
   {
     slug: "y666-game",
     name: "Y666",
-    tagline: "Y666 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Discover Y666 Game with download steps, gameplay tips, and earning guide. Learn how users in Pakistan play safely and withdraw rewards easily.",
     version: "v3.1.2", size: "41 MB", rating: 4.7, reviews: 599, category: "Casino / Earning",
     keywords: ["Y666 APK download", "Y666 game Pakistan", "Y666 earning app", "Y666 withdrawal EasyPaisa"],
@@ -3816,7 +3816,7 @@ export const games: Game[] = [
   {
     slug: "paknew-game",
     name: "PakNew",
-    tagline: "PakNew Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Learn everything about PakNew Game including download process, login steps, registration, payments, features, and FAQs in this complete guide for Pakistani users.",
     version: "v3.8.1", size: "63 MB", rating: 4.4, reviews: 131, category: "Casino / Earning",
     keywords: ["PakNew APK download", "PakNew game Pakistan", "PakNew earning app", "PakNew withdrawal EasyPaisa"],
@@ -3830,7 +3830,7 @@ export const games: Game[] = [
   {
     slug: "h789-game",
     name: "H789",
-    tagline: "H789 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Learn everything about H789 Game including download process, login steps, registration, payments, features, and FAQs in this complete guide for Pakistani users.",
     version: "v3.8.9", size: "52 MB", rating: 4.4, reviews: 536, category: "Casino / Earning",
     keywords: ["H789 APK download", "H789 game Pakistan", "H789 earning app", "H789 withdrawal EasyPaisa"],
@@ -3844,7 +3844,7 @@ export const games: Game[] = [
   {
     slug: "isb15-game",
     name: "ISB15",
-    tagline: "ISB15 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download ISB15 Game APK latest version in Pakistan. Learn how to install, register, and log in easily. Explore features, rewards and performance on .",
     version: "v2.2.4", size: "62 MB", rating: 4.6, reviews: 559, category: "Casino / Earning",
     keywords: ["ISB15 APK download", "ISB15 game Pakistan", "ISB15 earning app", "ISB15 withdrawal EasyPaisa"],
@@ -3858,7 +3858,7 @@ export const games: Game[] = [
   {
     slug: "z3-game",
     name: "Z3",
-    tagline: "Z3 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download Z3 Game APK latest version in Pakistan. Learn how to install, register, and log in easily. Explore features, performance, and user guide for Android devices.",
     version: "v1.8.7", size: "34 MB", rating: 4.2, reviews: 357, category: "Casino / Earning",
     keywords: ["Z3 APK download", "Z3 game Pakistan", "Z3 earning app", "Z3 withdrawal EasyPaisa"],
@@ -3872,7 +3872,7 @@ export const games: Game[] = [
   {
     slug: "pk786-game",
     name: "PK786",
-    tagline: "PK786 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download PK786 game APK latest version in Pakistan. Learn how to install, register, and log in easily. Explore features, rewards, and performance details for Android users.",
     version: "v2.9.1", size: "66 MB", rating: 4.3, reviews: 526, category: "Casino / Earning",
     keywords: ["PK786 APK download", "PK786 game Pakistan", "PK786 earning app", "PK786 withdrawal EasyPaisa"],
@@ -3886,7 +3886,7 @@ export const games: Game[] = [
   {
     slug: "777sx-game",
     name: "777SX",
-    tagline: "777SX Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download 777SX game APK latest version in Pakistan. Learn quick login steps, explore features, rewards, and install the app easily on Android today.",
     version: "v2.8.0", size: "42 MB", rating: 4.6, reviews: 835, category: "Casino / Earning",
     keywords: ["777SX APK download", "777SX game Pakistan", "777SX earning app", "777SX withdrawal EasyPaisa"],
@@ -3900,7 +3900,7 @@ export const games: Game[] = [
   {
     slug: "cb777-game",
     name: "CB777",
-    tagline: "CB777 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download CB777 game APK latest version and learn login steps, features, VIP rewards, and how to install the 777CB game on Android.",
     version: "v2.7.9", size: "52 MB", rating: 4.3, reviews: 364, category: "Casino / Earning",
     keywords: ["CB777 APK download", "CB777 game Pakistan", "CB777 earning app", "CB777 withdrawal EasyPaisa"],
@@ -3914,7 +3914,7 @@ export const games: Game[] = [
   {
     slug: "ph999-game",
     name: "Ph999",
-    tagline: "Ph999 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download Ph999 game APK in Pakistan. Learn Ph 999 login, features, bonuses and JazzCash withdrawal methods on teenpattihub.com.pk.",
     version: "v1.2.4", size: "63 MB", rating: 4.2, reviews: 819, category: "Casino / Earning",
     keywords: ["Ph999 APK download", "Ph999 game Pakistan", "Ph999 earning app", "Ph999 withdrawal EasyPaisa"],
@@ -3928,7 +3928,7 @@ export const games: Game[] = [
   {
     slug: "x666-game",
     name: "X666",
-    tagline: "X666 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download X666 game APK latest version 2026 and learn X666 login steps, features, VIP rewards, and how to install the game on Android in Pakistan.",
     version: "v2.4.5", size: "34 MB", rating: 4.6, reviews: 592, category: "Casino / Earning",
     keywords: ["X666 APK download", "X666 game Pakistan", "X666 earning app", "X666 withdrawal EasyPaisa"],
@@ -3942,7 +3942,7 @@ export const games: Game[] = [
   {
     slug: "kkwin-game",
     name: "KKWin",
-    tagline: "KKWin Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download KKWin game APK latest version in Pakistan. Learn quick login steps, explore app features, rewards, and install the APK easily on Android devices.",
     version: "v2.8.0", size: "56 MB", rating: 4.6, reviews: 283, category: "Casino / Earning",
     keywords: ["KKWin APK download", "KKWin game Pakistan", "KKWin earning app", "KKWin withdrawal EasyPaisa"],
@@ -3956,7 +3956,7 @@ export const games: Game[] = [
   {
     slug: "222rs-game",
     name: "222Rs",
-    tagline: "222Rs Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Explore 222Rs Game with easy download steps, gameplay tips, and earning guide. Learn how users in Pakistan deposit, play safely, and withdraw rewards.",
     version: "v1.5.7", size: "61 MB", rating: 4.5, reviews: 201, category: "Casino / Earning",
     keywords: ["222Rs APK download", "222Rs game Pakistan", "222Rs earning app", "222Rs withdrawal EasyPaisa"],
@@ -3970,7 +3970,7 @@ export const games: Game[] = [
   {
     slug: "777-bet-game",
     name: "777 Bet",
-    tagline: "777 Bet Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download 777 Bet game APK safely in Pakistan. Learn 777bet login, gameplay features, bonuses, payment options and how to install the game in Pakistan.",
     version: "v2.6.0", size: "49 MB", rating: 4.6, reviews: 400, category: "Casino / Earning",
     keywords: ["777 Bet APK download", "777 Bet game Pakistan", "777 Bet earning app", "777 Bet withdrawal EasyPaisa"],
@@ -3984,7 +3984,7 @@ export const games: Game[] = [
   {
     slug: "bro444-game",
     name: "Bro444",
-    tagline: "Bro444 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download Bro444 game APK latest version in Pakistan. Learn quick login steps, explore features, rewards, and install the app easily on Android today.",
     version: "v1.9.2", size: "51 MB", rating: 4.5, reviews: 204, category: "Casino / Earning",
     keywords: ["Bro444 APK download", "Bro444 game Pakistan", "Bro444 earning app", "Bro444 withdrawal EasyPaisa"],
@@ -3998,7 +3998,7 @@ export const games: Game[] = [
   {
     slug: "win7799-game",
     name: "Win7799",
-    tagline: "Win7799 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download Win7799 game APK latest version in Pakistan. Learn quick login steps, explore features, rewards, and install the app easily on Android today.",
     version: "v1.9.3", size: "56 MB", rating: 4.5, reviews: 333, category: "Casino / Earning",
     keywords: ["Win7799 APK download", "Win7799 game Pakistan", "Win7799 earning app", "Win7799 withdrawal EasyPaisa"],
@@ -4012,7 +4012,7 @@ export const games: Game[] = [
   {
     slug: "azamcasino-game",
     name: "AzamCasino",
-    tagline: "AzamCasino Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download AzamCasino game APK latest version in Pakistan. Learn quick login steps, explore features, rewards, and install the app easily on Android today.",
     version: "v2.6.3", size: "63 MB", rating: 4.6, reviews: 592, category: "Casino / Earning",
     keywords: ["AzamCasino APK download", "AzamCasino game Pakistan", "AzamCasino earning app", "AzamCasino withdrawal EasyPaisa"],
@@ -4026,7 +4026,7 @@ export const games: Game[] = [
   {
     slug: "75pak-game",
     name: "75Pak",
-    tagline: "75Pak Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download 75Pak game APK latest version in Pakistan. Learn quick login steps, explore features, rewards, and install the app easily on Android today.",
     version: "v2.6.8", size: "45 MB", rating: 4.6, reviews: 592, category: "Casino / Earning",
     keywords: ["75Pak APK download", "75Pak game Pakistan", "75Pak earning app", "75Pak withdrawal EasyPaisa"],
@@ -4040,7 +4040,7 @@ export const games: Game[] = [
   {
     slug: "pakwin88-game",
     name: "PakWin88",
-    tagline: "PakWin88 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download PakWin88 game APK latest version in Pakistan. Learn quick login steps, explore features, rewards, and install the app easily on Android today.",
     version: "v2.6.1", size: "47 MB", rating: 4.6, reviews: 868, category: "Casino / Earning",
     keywords: ["PakWin88 APK download", "PakWin88 game Pakistan", "PakWin88 earning app", "PakWin88 withdrawal EasyPaisa"],
@@ -4054,7 +4054,7 @@ export const games: Game[] = [
   {
     slug: "ek77-game",
     name: "EK77",
-    tagline: "EK77 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download EK77 game APK latest version in Pakistan. Learn quick login steps, explore features, rewards, and install the app easily on Android today.",
     version: "v2.8.9", size: "51 MB", rating: 4.6, reviews: 646, category: "Casino / Earning",
     keywords: ["EK77 APK download", "EK77 game Pakistan", "EK77 earning app", "EK77 withdrawal EasyPaisa"],
@@ -4068,7 +4068,7 @@ export const games: Game[] = [
   {
     slug: "ok37-game",
     name: "OK37",
-    tagline: "OK37 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download OK37 game APK latest version in Pakistan. Learn quick login steps, explore features, rewards, and install the app easily on Android today.",
     version: "v3.2.3", size: "48 MB", rating: 4.4, reviews: 680, category: "Casino / Earning",
     keywords: ["OK37 APK download", "OK37 game Pakistan", "OK37 earning app", "OK37 withdrawal EasyPaisa"],
@@ -4082,7 +4082,7 @@ export const games: Game[] = [
   {
     slug: "pk555-game",
     name: "PK555",
-    tagline: "PK555 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "PK555 game Download APK latest version in Pakistan. Learn quick login steps, explore features, rewards, and install the app easily on Android today.",
     version: "v3.0.2", size: "44 MB", rating: 4.4, reviews: 467, category: "Casino / Earning",
     keywords: ["PK555 APK download", "PK555 game Pakistan", "PK555 earning app", "PK555 withdrawal EasyPaisa"],
@@ -4096,7 +4096,7 @@ export const games: Game[] = [
   {
     slug: "bet88-game",
     name: "Bet88",
-    tagline: "Bet88 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Learn Bet88 game download, login, and payment process. Easy guide for beginners in Pakistan with simple steps and helpful tips.",
     version: "v2.0.2", size: "44 MB", rating: 4.6, reviews: 406, category: "Casino / Earning",
     keywords: ["Bet88 APK download", "Bet88 game Pakistan", "Bet88 earning app", "Bet88 withdrawal EasyPaisa"],
@@ -4110,7 +4110,7 @@ export const games: Game[] = [
   {
     slug: "m666-game",
     name: "M666",
-    tagline: "M666 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Download M666 game APK latest version and learn the M666 login steps, features, VIP rewards, and how to install the game on Android in Pakistan. M666 is a casino-style earning app with daily bonuses and fast EasyPaisa & JazzCash withdrawals.",
     version: "v1.2.0", size: "46 MB", rating: 4.5, reviews: 318, category: "Casino / Earning",
     keywords: ["M666 APK download", "M666 game Pakistan", "M666 login", "M666 earning app", "M666 withdrawal EasyPaisa"],
@@ -4124,7 +4124,7 @@ export const games: Game[] = [
   {
     slug: "winpkr777-game",
     name: "Winpkr777",
-    tagline: "Winpkr777 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Winpkr777 Game aims to meet these expectations by offering multiple gaming categories, secure transaction options, and regular promotional rewards.",
     version: "v3.4.0", size: "47 MB", rating: 4.4, reviews: 524, category: "Casino / Earning",
     keywords: ["Winpkr777 APK download", "Winpkr777 game Pakistan", "Winpkr777 earning app", "Winpkr777 withdrawal EasyPaisa"],
@@ -4138,7 +4138,7 @@ export const games: Game[] = [
   {
     slug: "777stake-game",
     name: "777Stake",
-    tagline: "777Stake Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "777Stake Game is designed to provide users with an exciting experience where they can play different card based and casino-style games.",
     version: "v1.5.0", size: "64 MB", rating: 4.5, reviews: 306, category: "Rummy / Casino",
     keywords: ["777Stake APK download", "777Stake game Pakistan", "777Stake earning app", "777Stake withdrawal EasyPaisa"],
@@ -4152,7 +4152,7 @@ export const games: Game[] = [
   {
     slug: "vq8-game",
     name: "VQ8",
-    tagline: "VQ8 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "VQ8 Game is an online mobile gaming platform where users can enjoy various casino-style and entertainment games while earning rewards.",
     version: "v3.4.4", size: "47 MB", rating: 4.4, reviews: 272, category: "Casino / Earning",
     keywords: ["VQ8 APK download", "VQ8 game Pakistan", "VQ8 earning app", "VQ8 withdrawal EasyPaisa"],
@@ -4166,7 +4166,7 @@ export const games: Game[] = [
   {
     slug: "hot77-game",
     name: "Hot77",
-    tagline: "Hot77 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Hot77 Game, which is becoming popular among users who enjoy casino-style games, slot machines, and reward-based gameplay.",
     version: "v1.1.3", size: "34 MB", rating: 4.5, reviews: 507, category: "Slots / Casino",
     keywords: ["Hot77 APK download", "Hot77 game Pakistan", "Hot77 earning app", "Hot77 withdrawal EasyPaisa"],
@@ -4180,7 +4180,7 @@ export const games: Game[] = [
   {
     slug: "e999-game",
     name: "E999",
-    tagline: "E999 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "E999 Game gives users a chance to play games, enjoy rewards, and withdraw real cash through payment methods Easypaisa and JazzCash.",
     version: "v1.2.3", size: "56 MB", rating: 4.2, reviews: 540, category: "Casino / Earning",
     keywords: ["E999 APK download", "E999 game Pakistan", "E999 earning app", "E999 withdrawal EasyPaisa"],
@@ -4194,7 +4194,7 @@ export const games: Game[] = [
   {
     slug: "royal8bet-game",
     name: "Royal8Bet",
-    tagline: "Royal8Bet Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Royal8Bet Game has gained significant attention due to its user-friendly interface, multiple gaming options, and convenient payment methods.",
     version: "v1.3.9", size: "64 MB", rating: 4.5, reviews: 702, category: "Sports / Casino",
     keywords: ["Royal8Bet APK download", "Royal8Bet game Pakistan", "Royal8Bet earning app", "Royal8Bet withdrawal EasyPaisa"],
@@ -4208,7 +4208,7 @@ export const games: Game[] = [
   {
     slug: "7vv-bet-game",
     name: "7VV Bet",
-    tagline: "7VV Bet Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "7VV Bet Game is a modern Android gaming application designed for users who enjoy casino-style games and real money on mobile devices.",
     version: "v1.3.7", size: "58 MB", rating: 4.5, reviews: 126, category: "Sports / Casino",
     keywords: ["7VV Bet APK download", "7VV Bet game Pakistan", "7VV Bet earning app", "7VV Bet withdrawal EasyPaisa"],
@@ -4222,7 +4222,7 @@ export const games: Game[] = [
   {
     slug: "q98-game",
     name: "Q98",
-    tagline: "Q98 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Q98 Game APK is a mobile gaming application designed for Android users who enjoy online entertainment with real reward opportunities.",
     version: "v1.7.7", size: "42 MB", rating: 4.5, reviews: 846, category: "Casino / Earning",
     keywords: ["Q98 APK download", "Q98 game Pakistan", "Q98 earning app", "Q98 withdrawal EasyPaisa"],
@@ -4236,7 +4236,7 @@ export const games: Game[] = [
   {
     slug: "666a-game",
     name: "666a",
-    tagline: "666a Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "666a Game interesting because it is simple and fast. The app does not require advanced gaming skills, so users can easily.",
     version: "v2.6.7", size: "41 MB", rating: 4.6, reviews: 784, category: "Casino / Earning",
     keywords: ["666a APK download", "666a game Pakistan", "666a earning app", "666a withdrawal EasyPaisa"],
@@ -4250,7 +4250,7 @@ export const games: Game[] = [
   {
     slug: "y71-game",
     name: "Y71",
-    tagline: "Y71 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Y71 Game is a popular online casino-style mobile gaming platform in Pakistan offering slots, poker, Aviator games, fish games, and and real cash.",
     version: "v2.4.4", size: "56 MB", rating: 4.6, reviews: 823, category: "Slots / Casino",
     keywords: ["Y71 APK download", "Y71 game Pakistan", "Y71 earning app", "Y71 withdrawal EasyPaisa"],
@@ -4264,7 +4264,7 @@ export const games: Game[] = [
   {
     slug: "gm7-game",
     name: "GM7",
-    tagline: "GM7 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "GM7 Game is becoming a fast-growing online gaming platform in Pakistan because it offers simple gameplay, quick access.",
     version: "v1.8.8", size: "49 MB", rating: 4.2, reviews: 126, category: "Casino / Earning",
     keywords: ["GM7 APK download", "GM7 game Pakistan", "GM7 earning app", "GM7 withdrawal EasyPaisa"],
@@ -4278,7 +4278,7 @@ export const games: Game[] = [
   {
     slug: "92-fun-game",
     name: "92 Fun",
-    tagline: "92 Fun Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "92 Fun Game is becoming a popular mobile gaming option for Pakistani users in 2026. It offers easy registration, multiple games, bonus rewards.",
     version: "v3.4.7", size: "60 MB", rating: 4.4, reviews: 509, category: "Casino / Earning",
     keywords: ["92 Fun APK download", "92 Fun game Pakistan", "92 Fun earning app", "92 Fun withdrawal EasyPaisa"],
@@ -4292,7 +4292,7 @@ export const games: Game[] = [
   {
     slug: "m99-game",
     name: "M99",
-    tagline: "M99 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "M99 Game APK is a popular online gaming platform offering exciting games, bonuses, secure deposits, and easy withdrawals.",
     version: "v3.8.8", size: "60 MB", rating: 4.4, reviews: 827, category: "Casino / Earning",
     keywords: ["M99 APK download", "M99 game Pakistan", "M99 earning app", "M99 withdrawal EasyPaisa"],
@@ -4306,7 +4306,7 @@ export const games: Game[] = [
   {
     slug: "pk2026-game",
     name: "PK2026",
-    tagline: "PK2026 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "PK2026 Game is becoming one of the most talked-about online earning and entertainment platforms in Pakistan in 2026.",
     version: "v1.8.1", size: "64 MB", rating: 4.2, reviews: 204, category: "Casino / Earning",
     keywords: ["PK2026 APK download", "PK2026 game Pakistan", "PK2026 earning app", "PK2026 withdrawal EasyPaisa"],
@@ -4320,7 +4320,7 @@ export const games: Game[] = [
   {
     slug: "e98-game",
     name: "E98",
-    tagline: "E98 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "E98 Game is an online earning app in Pakistan 2026 that provides users with different gaming options and reward systems.",
     version: "v1.3.3", size: "32 MB", rating: 4.5, reviews: 762, category: "Casino / Earning",
     keywords: ["E98 APK download", "E98 game Pakistan", "E98 earning app", "E98 withdrawal EasyPaisa"],
@@ -4334,7 +4334,7 @@ export const games: Game[] = [
   {
     slug: "zk777-game",
     name: "ZK777",
-    tagline: "ZK777 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "ZK777 Game is an Android-based online gaming and earning application designed mainly for Pakistani mobile users.",
     version: "v1.0.2", size: "63 MB", rating: 4.2, reviews: 597, category: "Casino / Earning",
     keywords: ["ZK777 APK download", "ZK777 game Pakistan", "ZK777 earning app", "ZK777 withdrawal EasyPaisa"],
@@ -4348,7 +4348,7 @@ export const games: Game[] = [
   {
     slug: "isb7-game",
     name: "ISB7",
-    tagline: "ISB7 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "ISB7 Game Apk is an online gaming application that offers a variety of games, including card games, slot machines, and other interactive.",
     version: "v1.9.0", size: "57 MB", rating: 4.5, reviews: 837, category: "Slots / Casino",
     keywords: ["ISB7 APK download", "ISB7 game Pakistan", "ISB7 earning app", "ISB7 withdrawal EasyPaisa"],
@@ -4362,7 +4362,7 @@ export const games: Game[] = [
   {
     slug: "jjrs-game",
     name: "JJRS",
-    tagline: "JJRS Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "JJRS Game APK is a modern Android earning application designed for users who want to explore online earning opportunities through their mobile devices.",
     version: "v3.8.9", size: "46 MB", rating: 4.4, reviews: 395, category: "Casino / Earning",
     keywords: ["JJRS APK download", "JJRS game Pakistan", "JJRS earning app", "JJRS withdrawal EasyPaisa"],
@@ -4376,7 +4376,7 @@ export const games: Game[] = [
   {
     slug: "11pkr-game",
     name: "11PKR",
-    tagline: "11PKR Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "11PKR Game has established itself as a popular mobile gaming platform by offering multiple game categories, smooth performance, and an easy-to-use interface.",
     version: "v3.7.9", size: "68 MB", rating: 4.7, reviews: 824, category: "Casino / Earning",
     keywords: ["11PKR APK download", "11PKR game Pakistan", "11PKR earning app", "11PKR withdrawal EasyPaisa"],
@@ -4390,7 +4390,7 @@ export const games: Game[] = [
   {
     slug: "ok222-game",
     name: "OK222",
-    tagline: "OK222 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "OK222 Game is designed for beginners as well as experienced users who want to explore online earning through gaming.",
     version: "v2.3.5", size: "58 MB", rating: 4.3, reviews: 370, category: "Casino / Earning",
     keywords: ["OK222 APK download", "OK222 game Pakistan", "OK222 earning app", "OK222 withdrawal EasyPaisa"],
@@ -4404,7 +4404,7 @@ export const games: Game[] = [
   {
     slug: "rs789-game",
     name: "RS789",
-    tagline: "RS789 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Free Download RS789 Game APK is an online gaming and earning application that allows users to play various games and earn rewards.",
     version: "v2.0.2", size: "66 MB", rating: 4.6, reviews: 637, category: "Casino / Earning",
     keywords: ["RS789 APK download", "RS789 game Pakistan", "RS789 earning app", "RS789 withdrawal EasyPaisa"],
@@ -4418,7 +4418,7 @@ export const games: Game[] = [
   {
     slug: "jk667-game",
     name: "JK667",
-    tagline: "JK667 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "JK667 Game in Pakistan is not fully clear because it is a third-party APK and not officially listed on government-approved app stores.",
     version: "v2.9.1", size: "43 MB", rating: 4.3, reviews: 466, category: "Casino / Earning",
     keywords: ["JK667 APK download", "JK667 game Pakistan", "JK667 earning app", "JK667 withdrawal EasyPaisa"],
@@ -4432,7 +4432,7 @@ export const games: Game[] = [
   {
     slug: "pkrfun-game",
     name: "Pkrfun",
-    tagline: "Pkrfun Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Pkrfun Game is becoming a popular mobile platform among users who enjoy online entertainment and interactive gaming experiences.",
     version: "v1.9.2", size: "33 MB", rating: 4.5, reviews: 582, category: "Casino / Earning",
     keywords: ["Pkrfun APK download", "Pkrfun game Pakistan", "Pkrfun earning app", "Pkrfun withdrawal EasyPaisa"],
@@ -4446,7 +4446,7 @@ export const games: Game[] = [
   {
     slug: "bb333-game",
     name: "BB333",
-    tagline: "BB333 Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "BB333 Game is a online earning games are becoming very popular in Pakistan, especially among mobile users who want both entertainment and earning opportunities.",
     version: "v1.0.2", size: "36 MB", rating: 4.2, reviews: 237, category: "Casino / Earning",
     keywords: ["BB333 APK download", "BB333 game Pakistan", "BB333 earning app", "BB333 withdrawal EasyPaisa"],
@@ -4460,7 +4460,7 @@ export const games: Game[] = [
   {
     slug: "2j10-bet-game",
     name: "2J10 Bet",
-    tagline: "2J10 Bet Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "2J10 Bet Game is a trending casino-style mobile app that attracts users with its simple gameplay and earning opportunities.",
     version: "v2.4.9", size: "56 MB", rating: 4.6, reviews: 457, category: "Sports / Casino",
     keywords: ["2J10 Bet APK download", "2J10 Bet game Pakistan", "2J10 Bet earning app", "2J10 Bet withdrawal EasyPaisa"],
@@ -4474,7 +4474,7 @@ export const games: Game[] = [
   {
     slug: "2go-game",
     name: "2GO",
-    tagline: "2GO Game Download — Real Money Earning App Pakistan 2026",
+    tagline: "Real Money Earning App Pakistan 2026",
     description: "Free Download 2GO Game APK is a mobile based platform where users can play different casino games like, Slots, Hots, PG, and earn rewards.",
     version: "v1.9.9", size: "33 MB", rating: 4.5, reviews: 147, category: "Slots / Casino",
     keywords: ["2GO APK download", "2GO game Pakistan", "2GO earning app", "2GO withdrawal EasyPaisa"],
