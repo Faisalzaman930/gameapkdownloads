@@ -3,7 +3,7 @@ import Link from "next/link";
 import { getAllBlogPosts } from "@/lib/blogs";
 
 export const metadata: Metadata = {
-  title: "Blog — Earning App Guides & News Pakistan 2026 | GameAPKDownloads",
+  title: "Blog — Earning App Guides & News Pakistan 2026",
   description:
     "Expert guides, withdrawal tips, and earning app news for Pakistani players. Updated weekly by our review team.",
   alternates: { canonical: "https://gameapkdownloads.pk/blog" },

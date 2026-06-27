@@ -21,11 +21,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const game = getGame(slug);
   if (!game) return {};
   return {
-    title: `${game.name} APK Download Pakistan — Free ${game.bonus} | GameAPKDownloads`,
+    title: `${game.name} APK Download Pakistan — Free ${game.bonus}`,
     description: `Download ${game.name} APK free in Pakistan. ${game.bonus} for new players. EasyPaisa & JazzCash supported. Min withdraw ${game.minWithdraw}. Reviewed by our team.`,
     alternates: { canonical: `https://gameapkdownloads.pk/games/${slug}` },
     openGraph: {
-      title: `${game.name} APK Download Pakistan — Free ${game.bonus} | GameAPKDownloads`,
+      title: `${game.name} APK Download Pakistan — Free ${game.bonus} | GameAPKDownloads.pk`,
       description: `Download ${game.name} APK free in Pakistan. ${game.bonus} for new players. EasyPaisa & JazzCash supported. Min withdraw ${game.minWithdraw}.`,
       url: `https://gameapkdownloads.pk/games/${slug}`,
       type: "article",
